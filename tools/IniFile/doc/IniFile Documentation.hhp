@@ -1,0 +1,77 @@
+[FILES]
+IniFile.html
+IniFile.IniFile.html
+IniFile.IniFileMembers.html
+IniFile.IniFileConstructor.html
+IniFile.IniFileFields.html
+IniFile.IniFile.CommentString.html
+IniFile.IniFileProperties.html
+IniFile.IniFile.Text.html
+IniFile.IniFileMethods.html
+IniFile.IniFile.AddKey.html
+IniFile.IniFile.AddSection.html
+IniFile.IniFile.ChangeValue.html
+IniFile.IniFile.CommentKey.html
+IniFile.IniFile.CommentSection.html
+IniFile.IniFile.DeleteKey.html
+IniFile.IniFile.DeleteSection.html
+IniFile.IniFile.GetFormSettings.html
+IniFile.IniFile.GetKeys.html
+IniFile.IniFile.GetSections.html
+IniFile.IniFile.MoveKey.html
+IniFile.IniFile.RenameKey.html
+IniFile.IniFile.RenameSection.html
+IniFile.IniFile.Save.html
+IniFile.IniFile.SaveFormSettings.html
+IniFile.IniFile.SaveXML.html
+IniFile.IniFile.Sort.html
+IniFile.IniFile.UnCommentKey.html
+IniFile.IniFile.UnCommentSection.html
+IniFile.Key.html
+IniFile.KeyMembers.html
+IniFile.KeyConstructor.html
+IniFile.KeyFields.html
+IniFile.Key.IsCommented.html
+IniFile.Key.Name.html
+IniFile.Key.Value.html
+IniFile.KeyMethods.html
+IniFile.Key.Equals.html
+IniFile.Key.GetHashCode.html
+IniFile.KeyComparer.html
+IniFile.KeyComparerMembers.html
+IniFile.KeyComparerConstructor.html
+IniFile.KeyComparerMethods.html
+IniFile.KeyComparer.Compare.html
+IniFile.Section.html
+IniFile.SectionMembers.html
+IniFile.SectionConstructor.html
+IniFile.SectionFields.html
+IniFile.Section.IsCommented.html
+IniFile.Section.Name.html
+IniFile.SectionMethods.html
+IniFile.Section.Equals.html
+IniFile.Section.GetHashCode.html
+IniFile.SectionComparer.html
+IniFile.SectionComparerMembers.html
+IniFile.SectionComparerConstructor.html
+IniFile.SectionComparerMethods.html
+IniFile.SectionComparer.Compare.html
+
+[OPTIONS]
+Title=IniFile Documentation
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=IniFile Documentation.chm
+Default Window=MsdnHelp
+Default topic=IniFile.html
+Display compile progress=No
+Error log file=IniFile Documentation.log
+Full-text search=Yes
+Index file=IniFile Documentation.hhk
+Language=0x409 English (United States)
+Contents file=IniFile Documentation.hhc
+
+[WINDOWS]
+MsdnHelp="IniFile Documentation Help","IniFile Documentation.hhc","IniFile Documentation.hhk","IniFile.html","IniFile.html",,,,,0x62520,220,0x387e,[86,51,872,558],,,,,,,0
+
+[INFOTYPES]

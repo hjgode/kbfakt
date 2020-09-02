@@ -1,0 +1,7 @@
+Mid(fld, 2, 2)
+Left(2)
+Right(n)
+Len()
+Year(Fld) = 1997
+Month(Fld) = 6
+Trim(Fld)

@@ -1,0 +1,863 @@
+Creating Richtwerte1 table...
+	Success: CREATE table Richtwerte1 (id AUTOINCREMENT, ArtNr TEXT(17), AWText TEXT(60))
+Creating Richtwerte2 table...
+	Success: CREATE table Richtwerte2 (id AUTOINCREMENT, ArtNr TEXT(17), FzgTyp TEXT(20), Preis DOUBLE)
+Starting import for Richtwerte
+	reading Auftrag 1005450
+	reading Auftrag 1005457
+	reading Auftrag 1005458
+	added ZEIT/22 to richtwerte1
+	added Anhänger Bauer, 31 to richtwerte2
+	reading Auftrag 1005460
+	reading Auftrag 1005461
+	reading Auftrag 1005462
+	reading Auftrag 1005463
+	reading Auftrag 1005464
+	reading Auftrag 1005465
+	reading Auftrag 1005466
+	reading Auftrag 1005478
+	added ZEIT/25 to richtwerte1
+	added MB 815, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB 815, 31 to richtwerte2
+	added ZEIT/29 to richtwerte1
+	added MB 815, 5,3 to richtwerte2
+	added ZEIT/28 to richtwerte1
+	added MB 815, 5,3 to richtwerte2
+	reading Auftrag 1005459
+	reading Auftrag 1005467
+	reading Auftrag 1005468
+	reading Auftrag 1005469
+	reading Auftrag 1005470
+		skipped adding 'ZEIT/28'
+	added L2000, 4,6 to richtwerte2
+		skipped adding 'ZEIT/25'
+	added L2000, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added L2000, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added L2000, 4,6 to richtwerte2
+	added ZEIT/30 to richtwerte1
+	added L2000, 4,6 to richtwerte2
+	reading Auftrag 1005471
+		skipped adding 'ZEIT/22'
+	added VW 9C, 31 to richtwerte2
+		skipped adding 'ZEIT/25'
+	added VW 9C, 50 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added VW 9C, 5,3 to richtwerte2
+	reading Auftrag 1005472
+	reading Auftrag 1005473
+	reading Auftrag 1005474
+		skipped adding 'ZEIT/28'
+	added MB 814D KA, 4,6 to richtwerte2
+	reading Auftrag 1005475
+	reading Auftrag 1005476
+	reading Auftrag 1005477
+	reading Auftrag 1005479
+		skipped adding 'ZEIT/28'
+	added MAN L2000, 4,6 to richtwerte2
+		skipped adding 'ZEIT/25'
+	added MAN L2000, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MAN L2000, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MAN L2000, 4,6 to richtwerte2
+		skipped adding 'ZEIT/30'
+	added MAN L2000, 4,6 to richtwerte2
+	reading Auftrag 1005480
+	reading Auftrag 1005481
+	reading Auftrag 1005483
+		skipped adding 'ZEIT/29'
+	added Anh.Nachlaeufer, 5,3 to richtwerte2
+	reading Auftrag 1005484
+	reading Auftrag 1005482
+	reading Auftrag 1005492
+	reading Auftrag 1005493
+	reading Auftrag 1005494
+	reading Auftrag 1005485
+	reading Auftrag 1005486
+	reading Auftrag 1005487
+		skipped adding 'ZEIT/22'
+	added MB 814, 31 to richtwerte2
+	reading Auftrag 1005488
+	reading Auftrag 1005489
+	reading Auftrag 1005490
+		skipped adding 'ZEIT/29'
+	added Anh.Krone, 4,8 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added Anh.Krone, 31 to richtwerte2
+	reading Auftrag 1005491
+		skipped adding 'ZEIT/29'
+	added Anhänger Ackermann, 4,8 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added Anhänger Ackermann, 31 to richtwerte2
+	reading Auftrag 1005499
+		skipped adding 'ZEIT/28'
+	added Volvo, 4,6 to richtwerte2
+	added ZEIT/26 to richtwerte1
+	added Volvo, 73,68 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Volvo, 5,6 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added Volvo, 31 to richtwerte2
+	reading Auftrag 1005501
+	reading Auftrag 1005503
+	reading Auftrag 1005495
+		skipped adding 'ZEIT/26'
+	added Actros 1831, 73,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added Actros 1831, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Actros 1831, 4,8 to richtwerte2
+	reading Auftrag 1005496
+		skipped adding 'ZEIT/22'
+	added Auflieger Krone, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Auflieger Krone, 4,8 to richtwerte2
+	reading Auftrag 1005498
+		skipped adding 'ZEIT/22'
+	added VW T31, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added VW T31, 4,6 to richtwerte2
+		skipped adding 'ZEIT/25'
+	added VW T31, 63,68 to richtwerte2
+	reading Auftrag 1005500
+		skipped adding 'ZEIT/22'
+	added Anhänger, 31 to richtwerte2
+	reading Auftrag 1005502
+	reading Auftrag 1005504
+	reading Auftrag 1005505
+	reading Auftrag 1005510
+	reading Auftrag 1005512
+	reading Auftrag 1005506
+	added ZEIT/21 to richtwerte1
+	added Kompressor, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Kompressor, 4,6 to richtwerte2
+	reading Auftrag 1005507
+	reading Auftrag 1005508
+	reading Auftrag 1005509
+	reading Auftrag 1005513
+		skipped adding 'ZEIT/22'
+	added TGA2 C23, 31 to richtwerte2
+	reading Auftrag 1005514
+		skipped adding 'ZEIT/22'
+	added MAN 9.163, 31 to richtwerte2
+	reading Auftrag 1005515
+	reading Auftrag 1005516
+	reading Auftrag 1005517
+	reading Auftrag 1005518
+	reading Auftrag 1005519
+	reading Auftrag 1005520
+	reading Auftrag 1005521
+	reading Auftrag 1005522
+	reading Auftrag 1005523
+	reading Auftrag 1005532
+	reading Auftrag 1005533
+	reading Auftrag 1005534
+	reading Auftrag 1005524
+		skipped adding 'ZEIT/26'
+	added MB Atego 1823, 73,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB Atego 1823, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB Atego 1823, 4,6 to richtwerte2
+		skipped adding 'ZEIT/30'
+	added MB Atego 1823, 4,6 to richtwerte2
+	reading Auftrag 1005525
+		skipped adding 'ZEIT/22'
+		skipped Anhänger, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger, 4,6 to richtwerte2
+	reading Auftrag 1005526
+	reading Auftrag 1005527
+	reading Auftrag 1005528
+		skipped adding 'ZEIT/22'
+	added Anhänger Krone, 31 to richtwerte2
+	reading Auftrag 1005529
+		skipped adding 'ZEIT/29'
+		skipped Anhänger, 5,6 to richtwerte2
+		skipped adding 'ZEIT/22'
+		skipped Anhänger, 31 to richtwerte2
+	reading Auftrag 1005530
+	reading Auftrag 1005531
+		skipped adding 'ZEIT/22'
+		skipped Anhänger Krone, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger Krone, 4,8 to richtwerte2
+	reading Auftrag 1005543
+	reading Auftrag 1005536
+		skipped adding 'ZEIT/26'
+	added MB 652, 73,68 to richtwerte2
+		skipped adding 'ZEIT/28'
+	added MB 652, 4,6 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB 652, 4,6 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB 652, 31 to richtwerte2
+		skipped adding 'ZEIT/30'
+	added MB 652, 4,6 to richtwerte2
+	reading Auftrag 1005537
+		skipped adding 'ZEIT/29'
+	added Schweissmaschine, 4,6 to richtwerte2
+	reading Auftrag 1005538
+	reading Auftrag 1005539
+		skipped adding 'ZEIT/30'
+	added MAN, 4,8 to richtwerte2
+	reading Auftrag 1005540
+	reading Auftrag 1005541
+		skipped adding 'ZEIT/22'
+	added Anhänger Blumhardt, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger Blumhardt, 4,8 to richtwerte2
+	reading Auftrag 1005542
+	reading Auftrag 1005544
+		skipped adding 'ZEIT/25'
+	added MB 814 D, 63,68 to richtwerte2
+		skipped adding 'ZEIT/28'
+	added MB 814 D, 4,6 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB 814 D, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB 814 D, 4,6 to richtwerte2
+	reading Auftrag 1005545
+	reading Auftrag 1005546
+	reading Auftrag 1005549
+	reading Auftrag 1005563
+	reading Auftrag 1005564
+	reading Auftrag 1005535
+		skipped adding 'ZEIT/21'
+	added Anhänger Tandem, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger Tandem, 4,6 to richtwerte2
+		skipped adding 'ZEIT/21'
+		skipped Anhänger Tandem, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger Tandem, 5,8 to richtwerte2
+	reading Auftrag 1005547
+	reading Auftrag 1005548
+	reading Auftrag 1005550
+	reading Auftrag 1005551
+	reading Auftrag 1005552
+		skipped adding 'ZEIT/25'
+	added MAN  M3900, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MAN  M3900, 31 to richtwerte2
+		skipped adding 'ZEIT/30'
+	added MAN  M3900, 5,8 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MAN  M3900, 5,8 to richtwerte2
+	reading Auftrag 1005553
+		skipped adding 'ZEIT/26'
+	added MAN TGA01-338KW, 73,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MAN TGA01-338KW, 31 to richtwerte2
+		skipped adding 'ZEIT/30'
+	added MAN TGA01-338KW, 5,8 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MAN TGA01-338KW, 5,8 to richtwerte2
+	reading Auftrag 1005554
+	reading Auftrag 1005555
+		skipped adding 'ZEIT/25'
+	added MB 970.01, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB 970.01, 31 to richtwerte2
+		skipped adding 'ZEIT/30'
+	added MB 970.01, 5,8 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB 970.01, 5,8 to richtwerte2
+	reading Auftrag 1005556
+		skipped adding 'ZEIT/25'
+	added MAZDA  UF, 42 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MAZDA  UF, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MAZDA  UF, 5,6 to richtwerte2
+	reading Auftrag 1005557
+	added ZEIT/23 to richtwerte1
+	added Auflieger, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Auflieger, 5,8 to richtwerte2
+	reading Auftrag 1005558
+	reading Auftrag 1005559
+	reading Auftrag 1005560
+		skipped adding 'ZEIT/23'
+	added Actros, 15,5 to richtwerte2
+	reading Auftrag 1005561
+	reading Auftrag 1005562
+	reading Auftrag 1005565
+	reading Auftrag 1005566
+	reading Auftrag 1005568
+	reading Auftrag 1005572
+		skipped adding 'ZEIT/28'
+	added Ford Fagy, 5,6 to richtwerte2
+	reading Auftrag 1005567
+		skipped adding 'ZEIT/23'
+		skipped Actros, 15,5 to richtwerte2
+	reading Auftrag 1005569
+	reading Auftrag 1005570
+	reading Auftrag 1005571
+	reading Auftrag 1005573
+	reading Auftrag 1005574
+	reading Auftrag 1005575
+	reading Auftrag 1005576
+	reading Auftrag 1005577
+	reading Auftrag 1005578
+	reading Auftrag 1005579
+	reading Auftrag 1005580
+		skipped adding 'ZEIT/25'
+	added Atego 815, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added Atego 815, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Atego 815, 5,6 to richtwerte2
+	reading Auftrag 1005581
+	reading Auftrag 1005582
+	reading Auftrag 1005583
+	reading Auftrag 1005584
+		skipped adding 'ZEIT/25'
+	added MB 814, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+		skipped MB 814, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB 814, 5,6 to richtwerte2
+	reading Auftrag 1005585
+	reading Auftrag 1005586
+		skipped adding 'ZEIT/30'
+	added MB 814, 5,6 to richtwerte2
+	reading Auftrag 1005587
+	reading Auftrag 1005588
+	reading Auftrag 1005589
+	reading Auftrag 1005590
+	reading Auftrag 1005591
+	reading Auftrag 1005592
+	reading Auftrag 1005593
+	reading Auftrag 1005594
+	reading Auftrag 1005595
+	reading Auftrag 1005596
+	reading Auftrag 1005597
+	reading Auftrag 1005598
+	reading Auftrag 1005599
+	reading Auftrag 1005600
+	reading Auftrag 1005601
+	reading Auftrag 1005602
+	reading Auftrag 1005603
+	reading Auftrag 1005604
+	reading Auftrag 1005605
+	reading Auftrag 1005606
+	reading Auftrag 1005607
+	reading Auftrag 1005608
+	reading Auftrag 1005609
+		skipped adding 'ZEIT/21'
+	added Kompressor DLT0404, 15,5 to richtwerte2
+	reading Auftrag 1005610
+	reading Auftrag 1005611
+	reading Auftrag 1005612
+	reading Auftrag 1005613
+		skipped adding 'ZEIT/26'
+	added MAN, 73,68 to richtwerte2
+		skipped adding 'ZEIT/28'
+	added MAN, 5,6 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MAN, 31 to richtwerte2
+		skipped adding 'ZEIT/30'
+		skipped MAN, 5,6 to richtwerte2
+	reading Auftrag 1005614
+	reading Auftrag 1005615
+		skipped adding 'ZEIT/21'
+	added Wohnwagen, 15,5 to richtwerte2
+	reading Auftrag 1005616
+	reading Auftrag 1005617
+	reading Auftrag 1005618
+	reading Auftrag 1005619
+		skipped adding 'ZEIT/26'
+		skipped MAN, 73,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+		skipped MAN, 31 to richtwerte2
+	reading Auftrag 1005620
+	reading Auftrag 1005621
+	reading Auftrag 1005622
+	reading Auftrag 1005623
+	reading Auftrag 1005624
+		skipped adding 'ZEIT/29'
+	added MB 8114 K, 5,6 to richtwerte2
+		skipped adding 'ZEIT/25'
+	added MB 8114 K, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB 8114 K, 31 to richtwerte2
+	reading Auftrag 1005628
+	reading Auftrag 1005634
+	reading Auftrag 1005625
+	reading Auftrag 1005626
+	reading Auftrag 1005627
+		skipped adding 'ZEIT/22'
+	added Atego, 31 to richtwerte2
+	reading Auftrag 1005629
+	reading Auftrag 1005630
+	reading Auftrag 1005631
+	reading Auftrag 1005632
+		skipped adding 'ZEIT/23'
+	added Anhänger, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped Anhänger, 5,6 to richtwerte2
+	reading Auftrag 1005633
+	reading Auftrag 1005635
+		skipped adding 'ZEIT/22'
+	added Auflieger HSKM/3L/S, 31 to richtwerte2
+	reading Auftrag 1005636
+	reading Auftrag 1005637
+		skipped adding 'ZEIT/26'
+	added 954.08, 73,68 to richtwerte2
+		skipped adding 'ZEIT/28'
+	added 954.08, 5,45 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added 954.08, 31 to richtwerte2
+	reading Auftrag 1005638
+		skipped adding 'ZEIT/26'
+	added Unimog, 73,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added Unimog, 31 to richtwerte2
+	reading Auftrag 1005639
+	reading Auftrag 1005640
+	reading Auftrag 1005641
+		skipped adding 'ZEIT/21'
+	added Schweissmaschiene, 15,5 to richtwerte2
+	reading Auftrag 1005642
+		skipped adding 'ZEIT/21'
+		skipped Kompressor, 15,5 to richtwerte2
+	reading Auftrag 1005643
+		skipped adding 'ZEIT/25'
+	added VW  T4, 42 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added VW  T4, 4,6 to richtwerte2
+	reading Auftrag 1005644
+		skipped adding 'ZEIT/28'
+	added MB, 5,6 to richtwerte2
+	reading Auftrag 1005645
+	reading Auftrag 1005646
+	reading Auftrag 1005647
+	reading Auftrag 1005648
+	reading Auftrag 1005649
+	reading Auftrag 1005650
+	reading Auftrag 1005651
+	reading Auftrag 1005660
+	reading Auftrag 1005663
+	reading Auftrag 1005652
+	reading Auftrag 1005653
+	reading Auftrag 1005654
+	reading Auftrag 1005655
+	reading Auftrag 1005656
+		skipped adding 'ZEIT/28'
+	added MB 1824, 5,6 to richtwerte2
+	reading Auftrag 1005657
+		skipped adding 'ZEIT/22'
+	added MB 1823, 31 to richtwerte2
+	reading Auftrag 1005658
+	reading Auftrag 1005659
+		skipped adding 'ZEIT/30'
+	added MAN  L77, 5,6 to richtwerte2
+	reading Auftrag 1005661
+	reading Auftrag 1005662
+	reading Auftrag 1005664
+	reading Auftrag 1005665
+	reading Auftrag 1005666
+	reading Auftrag 1005667
+	reading Auftrag 1005668
+	reading Auftrag 1005669
+	reading Auftrag 1005670
+	reading Auftrag 1005671
+	reading Auftrag 1005672
+	reading Auftrag 1005673
+		skipped adding 'ZEIT/28'
+	added MB Sprinter, 4,6 to richtwerte2
+		skipped adding 'ZEIT/25'
+	added MB Sprinter, 42 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB Sprinter, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB Sprinter, 4,6 to richtwerte2
+	reading Auftrag 1005674
+	reading Auftrag 1005675
+	reading Auftrag 1005676
+		skipped adding 'ZEIT/22'
+	added MB 814K, 31 to richtwerte2
+	reading Auftrag 1005677
+		skipped adding 'ZEIT/25'
+	added MB 904, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB 904, 31 to richtwerte2
+		skipped adding 'ZEIT/28'
+	added MB 904, 5,6 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB 904, 5,6 to richtwerte2
+	reading Auftrag 1005678
+	reading Auftrag 1005679
+	reading Auftrag 1005680
+	reading Auftrag 1005682
+	reading Auftrag 1005683
+		skipped adding 'ZEIT/21'
+		skipped Wohnwagen, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Wohnwagen, 5,6 to richtwerte2
+	reading Auftrag 1005684
+	reading Auftrag 1005685
+		skipped adding 'ZEIT/22'
+		skipped Anhänger, 31 to richtwerte2
+	reading Auftrag 1005687
+		skipped adding 'ZEIT/26'
+	added MB 2540, 73,68 to richtwerte2
+		skipped adding 'ZEIT/23'
+	added MB 2540, 15,5 to richtwerte2
+	reading Auftrag 1005688
+		skipped adding 'ZEIT/22'
+		skipped Anhänger, 31 to richtwerte2
+	reading Auftrag 1005689
+	reading Auftrag 1005690
+	reading Auftrag 1005691
+	reading Auftrag 1005692
+	reading Auftrag 1005693
+	reading Auftrag 1005681
+	reading Auftrag 1005694
+	reading Auftrag 1005699
+	reading Auftrag 1005718
+		skipped adding 'ZEIT/28'
+	added Service-Konto, 5,6 to richtwerte2
+	reading Auftrag 1005696
+	reading Auftrag 1005697
+	reading Auftrag 1005698
+	reading Auftrag 1005700
+	reading Auftrag 1005701
+	reading Auftrag 1005702
+	reading Auftrag 1005703
+	reading Auftrag 1005704
+	reading Auftrag 1005705
+		skipped adding 'ZEIT/26'
+	added MB, 73,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB, 31 to richtwerte2
+		skipped adding 'ZEIT/28'
+		skipped MB, 4,6 to richtwerte2
+		skipped adding 'ZEIT/30'
+	added MB, 4,6 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB, 4,6 to richtwerte2
+	reading Auftrag 1005706
+	reading Auftrag 1005707
+		skipped adding 'ZEIT/30'
+	added Merc.Benz, 4,6 to richtwerte2
+		skipped adding 'ZEIT/28'
+	added Merc.Benz, 4,6 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added Merc.Benz, 31 to richtwerte2
+		skipped adding 'ZEIT/25'
+	added Merc.Benz, 63,68 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Merc.Benz, 4,6 to richtwerte2
+	reading Auftrag 1005708
+	reading Auftrag 1005709
+		skipped adding 'ZEIT/22'
+		skipped Anhänger Krone, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped Anhänger Krone, 4,8 to richtwerte2
+	reading Auftrag 1005710
+		skipped adding 'ZEIT/22'
+	added Anhänger Z1631, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger Z1631, 5,6 to richtwerte2
+	reading Auftrag 1005711
+		skipped adding 'ZEIT/21'
+	added Anhänger, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped Anhänger, 4,6 to richtwerte2
+	reading Auftrag 1005712
+		skipped adding 'ZEIT/26'
+	added Iveco, 73,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added Iveco, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Iveco, 5,6 to richtwerte2
+	reading Auftrag 1005713
+		skipped adding 'ZEIT/26'
+		skipped MAN, 73,68 to richtwerte2
+		skipped adding 'ZEIT/23'
+	added MAN, 15,5 to richtwerte2
+		skipped adding 'ZEIT/28'
+		skipped MAN, 4,8 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MAN, 4,8 to richtwerte2
+	reading Auftrag 1005714
+	reading Auftrag 1005715
+	reading Auftrag 1005716
+		skipped adding 'ZEIT/22'
+	added Anhänger Hoffmann, 31 to richtwerte2
+	reading Auftrag 1005717
+	reading Auftrag 1005719
+		skipped adding 'ZEIT/25'
+	added MB 814 Kipper, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB 814 Kipper, 31 to richtwerte2
+	reading Auftrag 1005720
+	reading Auftrag 1005721
+		skipped adding 'ZEIT/25'
+	added Ford, 42 to richtwerte2
+	reading Auftrag 1005722
+	reading Auftrag 1005723
+	reading Auftrag 1005724
+	reading Auftrag 1005725
+	reading Auftrag 1005726
+	reading Auftrag 1005727
+	reading Auftrag 1005728
+	reading Auftrag 1005729
+	reading Auftrag 1005730
+	reading Auftrag 1005731
+	reading Auftrag 1005732
+	reading Auftrag 1005733
+	reading Auftrag 1005734
+	reading Auftrag 1005735
+	reading Auftrag 1005736
+	reading Auftrag 1005737
+	reading Auftrag 1005738
+	reading Auftrag 1005739
+	reading Auftrag 1005740
+	reading Auftrag 1005741
+	reading Auftrag 1005742
+	reading Auftrag 1005744
+	reading Auftrag 1005748
+	reading Auftrag 1005759
+		skipped adding 'ZEIT/23'
+	added Anhänger Krone, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped Anhänger Krone, 5,6 to richtwerte2
+	reading Auftrag 1005760
+		skipped adding 'ZEIT/23'
+		skipped Anhänger Krone, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped Anhänger Krone, 5,6 to richtwerte2
+	reading Auftrag 1005743
+	reading Auftrag 1005745
+	reading Auftrag 1005746
+	reading Auftrag 1005747
+	reading Auftrag 1005749
+	reading Auftrag 1005750
+	reading Auftrag 1005751
+	reading Auftrag 1005752
+		skipped adding 'ZEIT/21'
+		skipped Wohnwagen, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped Wohnwagen, 5,6 to richtwerte2
+	reading Auftrag 1005753
+	reading Auftrag 1005754
+	reading Auftrag 1005755
+		skipped adding 'ZEIT/25'
+	added VOLVO, 40,5 to richtwerte2
+		skipped adding 'ZEIT/22'
+		skipped VOLVO, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped VOLVO, 5,6 to richtwerte2
+	reading Auftrag 1005756
+	reading Auftrag 1005757
+	reading Auftrag 1005758
+		skipped adding 'ZEIT/28'
+		skipped MAN, 5,6 to richtwerte2
+	reading Auftrag 1005762
+	reading Auftrag 1005761
+	reading Auftrag 1005764
+	reading Auftrag 1005765
+	reading Auftrag 1005766
+		skipped adding 'ZEIT/23'
+		skipped Anhänger Krone, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped Anhänger Krone, 5,6 to richtwerte2
+	reading Auftrag 1005767
+		skipped adding 'ZEIT/23'
+		skipped Anhänger Krone, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped Anhänger Krone, 5,6 to richtwerte2
+	reading Auftrag 1005763
+	reading Auftrag 1005773
+		skipped adding 'ZEIT/23'
+		skipped Anhänger Krone, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped Anhänger Krone, 5,6 to richtwerte2
+	reading Auftrag 1005768
+	reading Auftrag 1005769
+	reading Auftrag 1005770
+	reading Auftrag 1005771
+	reading Auftrag 1005772
+	reading Auftrag 1005774
+	reading Auftrag 1005775
+	reading Auftrag 1005776
+	reading Auftrag 1005777
+	reading Auftrag 1005778
+	reading Auftrag 1005779
+	reading Auftrag 1005780
+	reading Auftrag 1005781
+	reading Auftrag 1005782
+	reading Auftrag 1005783
+	reading Auftrag 1005784
+	reading Auftrag 1005785
+	reading Auftrag 1005786
+		skipped adding 'ZEIT/22'
+	added MAN 18.264, 31 to richtwerte2
+	reading Auftrag 1005787
+	reading Auftrag 1005788
+	reading Auftrag 1005789
+	reading Auftrag 1005790
+	reading Auftrag 1005791
+	reading Auftrag 1005792
+	reading Auftrag 1005793
+		skipped adding 'ZEIT/22'
+	added MAN 19403 FLLW, 31 to richtwerte2
+	reading Auftrag 1005802
+	reading Auftrag 1005803
+	reading Auftrag 1005794
+		skipped adding 'ZEIT/22'
+		skipped MAN L2000, 31 to richtwerte2
+		skipped adding 'ZEIT/25'
+		skipped MAN L2000, 63,68 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped MAN L2000, 4,8 to richtwerte2
+		skipped adding 'ZEIT/30'
+		skipped MAN L2000, 4,8 to richtwerte2
+	reading Auftrag 1005795
+		skipped adding 'ZEIT/26'
+	added MB Actros, 73,68 to richtwerte2
+		skipped adding 'ZEIT/23'
+	added MB Actros, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB Actros, 5,45 to richtwerte2
+	reading Auftrag 1005796
+	reading Auftrag 1005797
+	reading Auftrag 1005798
+		skipped adding 'ZEIT/25'
+	added MB, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+		skipped MB, 31 to richtwerte2
+		skipped adding 'ZEIT/30'
+		skipped MB, 4,8 to richtwerte2
+	reading Auftrag 1005799
+	reading Auftrag 1005800
+		skipped adding 'ZEIT/21'
+	added Anhänger Langwagen, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger Langwagen, 4,6 to richtwerte2
+	reading Auftrag 1005801
+		skipped adding 'ZEIT/22'
+		skipped Anhänger Krone, 31 to richtwerte2
+	reading Auftrag 1005804
+	reading Auftrag 1005805
+	reading Auftrag 1005806
+		skipped adding 'ZEIT/22'
+		skipped MAN L2000, 31 to richtwerte2
+		skipped adding 'ZEIT/25'
+		skipped MAN L2000, 63,68 to richtwerte2
+		skipped adding 'ZEIT/30'
+		skipped MAN L2000, 4,8 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped MAN L2000, 4,8 to richtwerte2
+	reading Auftrag 1005807
+		skipped adding 'ZEIT/22'
+	added MB Atego 1223, 31 to richtwerte2
+		skipped adding 'ZEIT/25'
+	added MB Atego 1223, 63,68 to richtwerte2
+		skipped adding 'ZEIT/30'
+	added MB Atego 1223, 4,8 to richtwerte2
+	reading Auftrag 1005808
+	reading Auftrag 1005809
+	reading Auftrag 1005810
+	reading Auftrag 1005811
+	reading Auftrag 1005812
+	reading Auftrag 1005813
+		skipped adding 'ZEIT/22'
+	added Anhänger TKA 18HV, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger TKA 18HV, 5,45 to richtwerte2
+	reading Auftrag 1005814
+		skipped adding 'ZEIT/22'
+	added Anhänger Georg, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger Georg, 5,45 to richtwerte2
+	reading Auftrag 1005815
+	reading Auftrag 1005816
+		skipped adding 'ZEIT/22'
+		skipped MB, 31 to richtwerte2
+		skipped adding 'ZEIT/25'
+		skipped MB, 63,68 to richtwerte2
+		skipped adding 'ZEIT/28'
+		skipped MB, 4,8 to richtwerte2
+		skipped adding 'ZEIT/30'
+		skipped MB, 4,8 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped MB, 4,8 to richtwerte2
+	reading Auftrag 1005817
+		skipped adding 'ZEIT/22'
+		skipped Atego, 31 to richtwerte2
+	reading Auftrag 1005818
+	reading Auftrag 1005835
+	reading Auftrag 1005819
+	reading Auftrag 1005820
+	reading Auftrag 1005821
+	reading Auftrag 1005822
+		skipped adding 'ZEIT/22'
+		skipped MAN, 31 to richtwerte2
+		skipped adding 'ZEIT/28'
+		skipped MAN, 4,8 to richtwerte2
+		skipped adding 'ZEIT/26'
+		skipped MAN, 73,68 to richtwerte2
+		skipped adding 'ZEIT/30'
+		skipped MAN, 4,8 to richtwerte2
+		skipped adding 'ZEIT/29'
+		skipped MAN, 4,8 to richtwerte2
+	reading Auftrag 1005823
+		skipped adding 'ZEIT/25'
+		skipped MAN L2000, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+		skipped MAN L2000, 31 to richtwerte2
+		skipped adding 'ZEIT/30'
+		skipped MAN L2000, 4,8 to richtwerte2
+		skipped adding 'ZEIT/28'
+		skipped MAN L2000, 4,8 to richtwerte2
+	reading Auftrag 1005824
+		skipped adding 'ZEIT/28'
+	added MB Sprinter 413CDI, 4,6 to richtwerte2
+		skipped adding 'ZEIT/25'
+	added MB Sprinter 413CDI, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB Sprinter 413CDI, 31 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added MB Sprinter 413CDI, 4,6 to richtwerte2
+	reading Auftrag 1005825
+		skipped adding 'ZEIT/25'
+	added MB 613, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB 613, 31 to richtwerte2
+	reading Auftrag 1005826
+		skipped adding 'ZEIT/25'
+	added MB 413, 63,68 to richtwerte2
+		skipped adding 'ZEIT/22'
+	added MB 413, 31 to richtwerte2
+	reading Auftrag 1005827
+		skipped adding 'ZEIT/23'
+	added Anhänger Tieflader, 15,5 to richtwerte2
+		skipped adding 'ZEIT/29'
+	added Anhänger Tieflader, 4,6 to richtwerte2
+	reading Auftrag 1005828
+		skipped adding 'ZEIT/22'
+		skipped MAN 19403 FLLW, 31 to richtwerte2
+	reading Auftrag 1005829
+	reading Auftrag 1005830
+	reading Auftrag 1005831
+	reading Auftrag 1005832
+	reading Auftrag 1005833
+	reading Auftrag 1005834
+	reading Auftrag 1005836
+	reading Auftrag 1005838
+	reading Auftrag 1005837
+	reading Auftrag 1005839
+	reading Auftrag 1005840
+	reading Auftrag 1005841
+	reading Auftrag 1005842
+	reading Auftrag 1005843
+	reading Auftrag 1005844
+	reading Auftrag 1005845

@@ -1,0 +1,93 @@
+;
+;	Printer Installation File
+;
+;	 List of supported printers, manufacturers
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%OK%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+DriverVer=04/24/2003,1.0
+CatalogFile=Oki24pn.cat
+
+[ClassInstall32.NT]
+AddReg=printer_class_addreg
+
+[printer_class_addreg]
+HKR,,,,%PrinterClassName%
+HKR,,Icon,,"-4"
+HKR,,Installer32,,"ntprint.dll,ClassInstall32"
+HKR,,NoDisplayClass,,1
+HKR,,EnumPropPages32,,"printui.dll,PrinterPropPageProvider"
+
+;
+; Manufacturer section.
+;
+; This section lists all of the manufacturers
+; that we will display in the Dialog box
+;
+
+[Manufacturer]
+"Oki"
+
+;
+; Model Specifications Section
+;
+
+[Oki]
+"ML3390" = ML3390.GPD,USBPRINT\Oki_Data_CorporationAA93,LPTENUM\Oki_Data_CorporationAA93
+"ML3391" = ML3391.GPD,USBPRINT\Oki_Data_Corporation6A52,LPTENUM\Oki_Data_Corporation6A52
+"ML5590" = ML5590.GPD,USBPRINT\OKI_DATA_CORPOki_ML5AEFD,LPTENUM\OKI_DATA_CORPOki_ML5AEFD
+"ML5591" = ML5591.GPD, USBPRINT\OKI_DATA_CORPOki_ML56E3C,LPTENUM\OKI_DATA_CORPOki_ML56E3C
+
+;
+; Installer section(s) referenced above.
+;
+[ML3390.GPD]
+CopyFiles=@Oki24pn.dll,@ML3390.GPD
+DataSection=UNIDRV_DATA
+DataFile=ML3390.GPD
+Include=NTPRINT.INF
+Needs=UNIDRV.OEM
+
+[ML3391.GPD]
+CopyFiles=@Oki24pn.dll,@ML3391.GPD
+DataSection=UNIDRV_DATA
+DataFile=ML3391.GPD
+Include=NTPRINT.INF
+Needs=UNIDRV.OEM
+
+[ML5590.GPD]
+CopyFiles=@Oki24pn.dll,@ML5590.GPD
+DataSection=UNIDRV_DATA
+DataFile=ML5590.GPD
+Include=NTPRINT.INF
+Needs=UNIDRV.OEM
+
+[ML5591.GPD]
+CopyFiles=@Oki24pn.dll,@ML5591.GPD
+DataSection=UNIDRV_DATA
+DataFile=ML5591.GPD
+Include=NTPRINT.INF
+Needs=UNIDRV.OEM
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+[SourceDisksNames.x86]
+1 = %disk1%,,,
+
+[SourceDisksFiles]
+Oki24pn.dll= 1
+ML3390.GPD = 1
+ML3391.GPD = 1
+ML5590.GPD = 1
+ML5591.GPD = 1
+
+[Strings]
+PrinterClassName="Printers"
+OK="Oki"
+disk1="Oki Printer Driver Setup Disk"
+

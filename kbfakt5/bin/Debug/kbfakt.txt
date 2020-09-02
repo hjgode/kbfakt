@@ -1,0 +1,51 @@
+Firma
+Ernst
+Krebs KG
+Dellenfeld 38-40
+
+42653 Solingen
+
+
+
+
+^ERechnung 1005844 vom   .  .    
+                                                       Steuernummer:Steuernummer: 13550190614
+                                                      Auftragsdatum:  12.04.2006
+    Kunden-Nr.:        20007                         Leistungsdatum:  12.04.2006
+       Telefon:                                Fahrgestellnr.: WMAM39ZZZ1Y074536
+   Amtl.Kennz.:     SG-K 181                              Typ:        MAN  M3900
+    Zul. Datum:   09.01.1901                         KM-Stand:             91622
+           TÜV: 01.07, ASU: 01.07, Tacho: 01.07, Sicherh.: 07.06
+--------------------------------------------------------------------------------
+                                                                   Seite(n): 1/1
+
+--------------------------------------------------------------------------------
+Pos Artikelnr.        Artikelbezeichnung             Menge  E-Preis Rab G-Preis 
+================================================================================
+  1 81621004033*      SCHRAUBE                        10,00    4,10        41,00
+  2 340021701*        KUPPLUNGSKIT                     1,00  790,00       790,00
+  3 AW                SCHWUNGRAD PLANSCHLEIFEEN       18,00    5,80       104,40
+  4 AW                SCHWUNGRAD AUS UND EINBAUEN     13,00    5,80        75,40
+  5 AW                KUPPLUNG AUS UND EINBAUEN,      14,00    5,80        81,20
+                      ERNEUERN
+  6 AW                GETRIEBE AUS UND EINBAUEN       96,00    5,80       556,80
+================================================================================
+    Schmiermittel:     0,00                                              1648,80
+      Ersatzteile:   831,00                                   16% MwSt    263,81
+         Altteile:     0,00                               AltTeil-MwSt      0,00
+             Lohn:   817,80                                              1912,61
+                                                                       =========
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+           Bei Zahlungen und Rückfragen bitte Rechnungsnummer angeben.
+               Der Auftrag wurde unter Anerkennung der Bedingungen
+                    für die Ausführung von Arbeiten erteilt.

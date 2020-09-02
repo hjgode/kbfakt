@@ -1,0 +1,132 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RECH1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="XAUFTR_NR" type="xs:double" />
+              <xs:element name="XKUNDENNR" type="xs:double" minOccurs="0" />
+              <xs:element name="XAN1" type="xs:short" minOccurs="0" />
+              <xs:element name="XNAME1" type="xs:string" minOccurs="0" />
+              <xs:element name="XNAME2" type="xs:string" minOccurs="0" />
+              <xs:element name="XST" type="xs:string" minOccurs="0" />
+              <xs:element name="XPL" type="xs:string" minOccurs="0" />
+              <xs:element name="XOT" type="xs:string" minOccurs="0" />
+              <xs:element name="XFGSTLLNR" type="xs:string" minOccurs="0" />
+              <xs:element name="XDATUM" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="XNETTO" type="xs:double" minOccurs="0" />
+              <xs:element name="XAN" type="xs:double" minOccurs="0" />
+              <xs:element name="XSCHMIER" type="xs:double" minOccurs="0" />
+              <xs:element name="XLOHN" type="xs:double" minOccurs="0" />
+              <xs:element name="XSONDER" type="xs:double" minOccurs="0" />
+              <xs:element name="XKMSTAND" type="xs:double" minOccurs="0" />
+              <xs:element name="XKZ" type="xs:string" minOccurs="0" />
+              <xs:element name="XZULASS" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="XTYP" type="xs:string" minOccurs="0" />
+              <xs:element name="XMWS" type="xs:double" minOccurs="0" />
+              <xs:element name="XTEL" type="xs:string" minOccurs="0" />
+              <xs:element name="id" type="xs:int" />
+              <xs:element name="GEDRUCKT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="WERKDATUM" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MwStSatz" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RECH2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AUFTR_NR" type="xs:double" minOccurs="0" />
+              <xs:element name="ARTIKELNR" type="xs:string" minOccurs="0" />
+              <xs:element name="ARTIKELBEZ" type="xs:string" minOccurs="0" />
+              <xs:element name="KONTO" type="xs:string" minOccurs="0" />
+              <xs:element name="MENGE" type="xs:double" minOccurs="0" />
+              <xs:element name="E_PREIS" type="xs:double" minOccurs="0" />
+              <xs:element name="RABATT" type="xs:short" minOccurs="0" />
+              <xs:element name="LOHNART" type="xs:short" minOccurs="0" />
+              <xs:element name="IST_AW" type="xs:double" minOccurs="0" />
+              <xs:element name="MITARBCODE" type="xs:short" minOccurs="0" />
+              <xs:element name="FAHRZEUG" type="xs:short" minOccurs="0" />
+              <xs:element name="TEXT" type="xs:string" minOccurs="0" />
+              <xs:element name="id" type="xs:int" />
+              <xs:element name="pos" type="xs:int" minOccurs="0" />
+              <xs:element name="ArtTyp" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Anreden">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:int" />
+              <xs:element name="Anrede" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Firmstam">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FA_ANREDE" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME1" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME2" type="xs:string" minOccurs="0" />
+              <xs:element name="STRASSE" type="xs:string" minOccurs="0" />
+              <xs:element name="PLZ" type="xs:string" minOccurs="0" />
+              <xs:element name="ORT" type="xs:string" minOccurs="0" />
+              <xs:element name="MWST_SATZ1" type="xs:double" minOccurs="0" />
+              <xs:element name="STEUERNR" type="xs:string" minOccurs="0" />
+              <xs:element name="id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Kundfahr">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KUNDEN_NR" type="xs:double" minOccurs="0" />
+              <xs:element name="FGSTLLNR" type="xs:string" />
+              <xs:element name="TYP" type="xs:string" minOccurs="0" />
+              <xs:element name="KENNZEICH" type="xs:string" minOccurs="0" />
+              <xs:element name="KM_STAND" type="xs:double" minOccurs="0" />
+              <xs:element name="KFZ_BRF_NR" type="xs:string" minOccurs="0" />
+              <xs:element name="ZULASSUNG1" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TUEV" type="xs:string" minOccurs="0" />
+              <xs:element name="ASU" type="xs:string" minOccurs="0" />
+              <xs:element name="SCHREIBER" type="xs:string" minOccurs="0" />
+              <xs:element name="SICHER" type="xs:string" minOccurs="0" />
+              <xs:element name="id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//RECH1" />
+      <xs:field xpath="XAUFTR_NR" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//RECH1" />
+      <xs:field xpath="XAUFTR_NR" />
+    </xs:unique>
+    <xs:unique name="RECH2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//RECH2" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="Anreden_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Anreden" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="Firmstam_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Firmstam" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:unique name="Kundfahr_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Kundfahr" />
+      <xs:field xpath="FGSTLLNR" />
+      <xs:field xpath="id" />
+    </xs:unique>
+    <xs:keyref name="Rech1Rech2" refer="Constraint2">
+      <xs:selector xpath=".//RECH2" />
+      <xs:field xpath="AUFTR_NR" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

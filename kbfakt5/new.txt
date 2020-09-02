@@ -1,0 +1,13 @@
+.text
+drw1("XNETTO") = txtXNETTO.text
+drw1("XAN") = txtXAN.text
+drw1("XSCHMIER") = txtXSCHMIER.text
+drw1("XLOHN") = txtXLOHN.text
+drw1("XSONDER") = txtXSONDER.text
+drw1("XKMSTAND") = txtXKMSTAND.text
+drw1("XKZ") = txtXKZ.text
+drw1("XZULASS") = txtXZULASS.text
+drw1("XTYP") = txtXTYP.text
+drw1("XMWS") = txtXMWS.text
+drw1("XTEL") = txtXTEL.text
+drw1("

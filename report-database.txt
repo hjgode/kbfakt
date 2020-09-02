@@ -1,0 +1,36 @@
+Private Sub SimpleDataSet(ByVal Choice As Integer) 
+Dim myReport As New SimpleDataset 
+Dim myDataSet As New DataSet 
+Select Case Choice 
+Case 1 
+SimpleAccessDataset(myDataSet) 
+Case 2 
+SimpleSQLDataset(myDataSet) 
+End Select 
+myReport.SetDataSource(myDataSet) 
+CrystalReportViewer1.ReportSource = myReport 
+End Sub 
+Private Sub SimpleAccessDataset(ByVal myDataSet As DataSet) 
+Dim myConnectionString As String 
+Dim myConnection As OleDb.OleDbConnection 
+Dim myDataAdapter As OleDb.OleDbDataAdapter = New OleDb.OleDbDataAdapter 
+Dim SQL As String 
+SQL = "SELECT [Order Id] as OrderId FROM ORDERS" 
+myConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0; Data 
+Source=C:\Xtreme.mdb" 
+myConnection = New OleDb.OleDbConnection(myConnectionString) 
+myDataAdapter.SelectCommand = New OleDb.OleDbCommand(SQL, myConnection) 
+myDataAdapter.Fill(myDataSet, "Orders") 
+End Sub 
+Private Sub SimpleSQLDataset(ByVal myDataSet As DataSet) 
+Dim myConnectionString As String 
+Dim myConnection As SqlClient.SqlConnection 
+Dim myDataAdapter As SqlClient.SqlDataAdapter 
+myConnectionString = "Data Source=(local);UID=sa;Database=Northwind" 
+myConnection = New SqlClient.SqlConnection(myConnectionString) 
+Dim cmdCustomers As New SqlClient.SqlCommand("SELECT OrderId FROM ORDERS", _ 
+myConnection) 
+cmdCustomers.CommandType = CommandType.Text 
+myDataAdapter = New SqlClient.SqlDataAdapter(cmdCustomers) 
+myDataAdapter.Fill(myDataSet, "Orders") 
+End Sub

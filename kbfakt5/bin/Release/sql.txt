@@ -1,0 +1,16 @@
+Select * from RECH1
+Select SUM (XNETTO) from RECH1
+Select MAX (XAUFTR_NR) from RECH1
+Select * from RECH2
+Select SUM (XNETTO) from RECH1 where xkundennr=17001
+Select distinct XAN1 from RECH1
+Select distinct Xname2 from RECH1 order by xname2
+Select SUM (menge * e_preis) from RECH2
+select * into temp from rech1
+UPDATE RECH2 SET TYP = 2 where ARTIKELNR LIKE 'ZEIT*'
+UPDATE RECH2 SET [TYP] = 2 where ARTIKELNR = 'ZEIT'
+update table ARTSTAMM SET [typ]=1 where ARTIKELNR IN (select artikelnr from artstamm where artikelnr LIKE '500-*')
+select artikelnr from artstamm where artikelnr LIKE '500-%'
+update ARTSTAMM SET [typ]=1 where ARTIKELNR IN (select artikelnr from artstamm where artikelnr LIKE '500-%')
+Select XAUFTR_NR as Aufrag, XDATUM as RgDatum, XFGSTLLNR as FahrgestNr, XKMSTAND as KMStand, XNETTO as Netto from Rech1 where XKundenNr=11003
+Select XAUFTR_NR as Aufrag, XDATUM as RgDatum, XFGSTLLNR as FahrgestNr, XKMSTAND as KMStand, XNETTO as Netto from Rech1 where XKundenNr=11003

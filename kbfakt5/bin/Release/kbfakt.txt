@@ -1,0 +1,71 @@
+Firma
+Alfred
+Johne GmbH
+Schallbruch 34
+
+42781 Haan
+
+
+
+
+^ERechnung 1008778 vom 14.02.2009
+                                                         Steuernummer: 13550190614
+                                                        Auftragsdatum:  14.02.2009
+    Kunden-Nr.:        10002                         Leistungsdatum:  14.02.2009
+       Telefon:        94600                   Fahrgestellnr.:             J1002
+   Amtl.Kennz.:    ME-MD 522                              Typ:         Wohnwagen
+    Zul. Datum:                                      KM-Stand:                 0
+           TÜV: 05.07, ASU: 05.07, Tacho: 05.07, Sicherh.: 05.07
+----------------------------------------------------------------------------------
+                                                                     Seite(n): 1/1
+
+----------------------------------------------------------------------------------
+Pos Artikelnr.        Artikelbezeichnung             Menge  E-Preis Rab G-Preis 
+==================================================================================
+  1 123               weiss nich                       1,00    2,50         2,50
+  2 456               asdasd                           2,00    5,60        11,20
+  3 ateil*            ateil                            1,00  100,00       100,00
+==================================================================================
+    Schmiermittel:     0,00                                                 113,70
+      Ersatzteile:    13,70                                     19% MwSt     21,60
+         Altteile:   100,00                                 AltTeil-MwSt      1,90
+             Lohn:     0,00                                                 137,20
+                                                                         =========
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+            Bei Zahlungen und Rückfragen bitte Rechnungsnummer angeben.
+                Der Auftrag wurde unter Anerkennung der Bedingungen
+                     für die Ausführung von Arbeiten erteilt.

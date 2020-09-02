@@ -1,0 +1,14 @@
+          *  Richtwerte aufrufen
+                "Zeit" eingeben
+                Monteurnummer eingeben
+                Richtwertnummer eingeben
+                   Richtwertnummer vorhanden
+                      AW-Menge eingeben
+                      E-Preis eingeben
+                      Arbeit wird aufgelistet
+                   Richtwertnummer nicht vorhanden
+                      AW-Menge eingeben
+                      AW-Preis eingeben
+                      Arbeitsart eingeben
+                      E-Preis eingeben
+					  

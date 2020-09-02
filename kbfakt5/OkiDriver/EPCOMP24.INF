@@ -1,0 +1,56 @@
+
+
+; NTPRINT.INF (for Windows XP)
+;
+; List of supported printers, manufacturers
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%MS%
+; LayoutFile=layout.inf
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile=ntprint.cat
+
+DriverVer=07/01/2001,5.1.2600.2180
+[ClassInstall32.NT]
+AddReg=printer_class_addreg
+
+[printer_class_addreg]
+HKR,,,,%PrinterClassName%
+HKR,,Icon,,"-4"
+HKR,,Installer32,,"ntprint.dll,ClassInstall32"
+HKR,,NoDisplayClass,,1
+HKR,,EnumPropPages32,,"printui.dll,PrinterPropPageProvider"
+
+[Manufacturer]
+%Epson%=Epson
+
+[Epson]
+"Epson Compatible 24 Pin"                              = EPCOMP24.GPD        ,EpsonEpson_CompatiblEBF9,Epson_Compatible_24_Pin
+
+[EPCOMP24.GPD]
+CopyFiles=@EP24RES.DLL,@EPCOMP24.GPD,UNIDRV
+DataSection=UNIDRV_DATA
+
+[SourceDisksNames.x86]
+1   = %W2Kcd%,driver.cab,,"I386"
+2   = %W2Kcd%,sp2.cab,,"I386",1
+
+[SourceDisksFiles]
+epcomp24.gpd = 1
+
+[UNIDRV_DATA]
+DriverFile=UNIDRV.DLL
+ConfigFile=UNIDRVUI.DLL
+HelpFile=UNIDRV.HLP
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+[Strings]
+W2Kcd="Windows XP-CD"
+MS="Microsoft Windows XP"
+PrinterClassName="Drucker"
+Epson="Epson"

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoStorageDemoCS", "IsoStorageDemoCS\IsoStorageDemoCS.csproj", "{63F88F20-5799-4F8F-914C-BA40511FE456}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsolatedStorage", "IsolatedStorage\IsolatedStorage.csproj", "{67BCC3ED-CBD9-4331-A5B4-C0C5BC94101A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{63F88F20-5799-4F8F-914C-BA40511FE456}.Debug.ActiveCfg = Debug|.NET
+		{63F88F20-5799-4F8F-914C-BA40511FE456}.Debug.Build.0 = Debug|.NET
+		{63F88F20-5799-4F8F-914C-BA40511FE456}.Release.ActiveCfg = Release|.NET
+		{63F88F20-5799-4F8F-914C-BA40511FE456}.Release.Build.0 = Release|.NET
+		{67BCC3ED-CBD9-4331-A5B4-C0C5BC94101A}.Debug.ActiveCfg = Debug|.NET
+		{67BCC3ED-CBD9-4331-A5B4-C0C5BC94101A}.Debug.Build.0 = Debug|.NET
+		{67BCC3ED-CBD9-4331-A5B4-C0C5BC94101A}.Release.ActiveCfg = Release|.NET
+		{67BCC3ED-CBD9-4331-A5B4-C0C5BC94101A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

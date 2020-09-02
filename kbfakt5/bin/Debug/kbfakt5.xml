@@ -1,0 +1,483 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+kbfakt5
+</name>
+</assembly>
+<members>
+<member name="P:kbfakt5.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:kbfakt5.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:kbfakt5.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:kbfakt5.PrintAuftrag.totalPages">
+	<summary>
+ Printed as page x of y on rechnung
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftrag.GetDetailsLineCount(System.String)">
+	<summary>
+ return the number of lines needed to print all details for AuftragNr
+ will care about entries with LEN less than 30 and more than 30
+ </summary>
+	<param name="auftragsnummer"></param>
+	<returns>number of lines needed to print with a width of 30</returns>
+	<remarks></remarks>
+</member><member name="F:kbfakt5.Auftrag.g_ArtikelFound">
+	<summary>
+ Global var to remember, if Artikle was searched and found with dialog
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.addChangedHandler">
+	<summary>
+ will add the changed event handler to every text control
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.DateTimePickerChanged(System.Object,System.EventArgs)">
+	<summary>
+ DateTimePicker ValueChanged event handler
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.TextBoxChanged(System.Object,System.EventArgs)">
+	<summary>
+ TextBoxChanged event handler
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.DataGridChanged(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+	<summary>
+ DataGridView Cell changed event handler
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.DataChanged(System.Boolean)">
+	<summary>
+ Change buttons enabled/disabled etc according to Changed Status
+ </summary>
+	<param name="b">changed or not?</param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.KundeSuchen">
+	<summary>
+ search Kunde for a given Kunden_nr
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.checkAuftragsnummer">
+	<summary>
+ will test auftragsnummer
+ try to read auftrag with txtAuftragNummer
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.CalcNetto">
+	<summary>
+ CalcNetto will be executed by ReadAuftrag only
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.ExistsKunde(System.Double)">
+	<summary>
+ check if a valid Kunde
+ </summary>
+	<param name="KundenNr"></param>
+	<returns>true for Kunde is valid
+ false for invalid Kunde</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.ReadKunde(System.Double)">
+	<summary>
+ Fill the Kunden fields with data from KundenSt
+ </summary>
+	<param name="KundenNr"></param>
+	<returns>number of found data rows</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.ExistsFahrzeug(System.String)">
+	<summary>
+ check if there is data saved for a given FGSTLLNR number
+ </summary>
+	<param name="FahrzNr"></param>
+	<returns>true, if data found
+ false, if no data found</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.readFahrzeug(System.String)">
+	<summary>
+ read the data of a Fahrzeug and fill in the fields
+ </summary>
+	<param name="FahrzNr"></param>
+	<returns>number of matching data rows</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.FahrzeugSuchen">
+	<summary>
+ searches Fahrzeug database for a given Kunden_Nr
+ </summary>
+	<returns>fahrgestell_nr of selected Fahrzeug</returns>
+	<remarks>uses Fahrzeugliste dialog</remarks>
+</member><member name="M:kbfakt5.Auftrag.CalcNetto2(System.Data.DataTable@)">
+	<summary>
+ CalcNetto2 is executed for changes in the actual dataset
+ </summary>
+	<param name="tbl"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.SearchArtikel(System.String)">
+	<summary>
+ search an ArtikelNr and return the first matching DataRow
+ </summary>
+	<param name="artikelNr"></param>
+	<returns>
+ DataRow
+ </returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.DataGridView1_CellEndEdit(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+	<summary>
+ process ENTER keydown event for datagridview
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>
+ if in POS column -&gt; new POS number
+ if in ArtikelNR and EndsWith "*" -&gt; do not SearchArtikel 
+    ELSE SearchArtikel
+ </remarks>
+</member><member name="M:kbfakt5.Auftrag.btnKundeFREI_Click(System.Object,System.EventArgs)">
+	<summary>
+ enables free entry for Kunden data
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.Auftrag.btnFahrzeugFREI_Click(System.Object,System.EventArgs)">
+	<summary>
+ enables free entry for Fahrzeug data
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>disabled in v 2.0.0.6</remarks>
+</member><member name="M:kbfakt5.Auftrag.RichtwertEingabe(System.Windows.Forms.DataGridViewRow)">
+	<summary>
+ The user entered ZEIT as ArtikelNr
+ we now need to know the RichtwertNummer
+ </summary>
+	<param name="row"></param>
+	<remarks>
+ Richtwertnummer eingeben
+  Richtwertnummer vorhanden
+   AW-Menge eingeben
+   E-Preis eingeben
+   Arbeit wird aufgelistet
+  Richtwertnummer nicht vorhanden
+   AW-Menge eingeben
+   AW-Preis eingeben
+   Arbeitsart eingeben
+   E-Preis eingeben
+ </remarks>
+</member><member name="M:kbfakt5.FahrzeugDetails.addChangedHandler">
+	<summary>
+ will add the changed event handler to every text control
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.FahrzeugDetails.TextBoxChanged(System.Object,System.EventArgs)">
+	<summary>
+ TextBoxChanged event handler
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.Begin(System.Int32,System.Int32)">
+	<param name="maximum">The maximum value in the progress range (e.g. 100)</param>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.SetRange(System.Int32,System.Int32)">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.SetText(System.String)">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.StepTo(System.Int32)">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.Increment(System.Int32)">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="P:kbfakt5.MWA.Progress.IProgressCallback.IsAborting">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.End">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.datei_import.UpdateArtStammFzgTyp">
+	<summary>
+ ArtStamm Daten, Feld FzgTyp mit Wert aus Rech1:XTyp ergänzen
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.datei_import.UpdateArtstammFromRech2_Zeit">
+	<summary>
+ Zeit-Daten aus Rechnungen in den Artikelstamm übernehmen
+ wobei ArtikelNr und ArtikelBez abgeschnitten werden!
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.datei_import.UpdateArtstammFromRech2_ZeitExtended">
+	<summary>
+ Zeit-Daten aus Rechnungen in den Artikelstamm übernehmen
+ wobei ArtikelNr und ArtikelBez NICHT abgeschnitten werden!
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.datei_import.UmlauteKorrigieren(System.String)">
+	<summary>
+ Korrigiert dBase Umlaute in der Tabelle sTable
+ </summary>
+	<param name="sTable">eine geöffnete Tabelle</param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.IsolatedStorage.ConfigurationManager.#ctor(System.String)">
+	<summary>
+ Singleton, do not allow this class to be instantiated by making the contructor private
+ </summary>
+	<param name="applicationName"></param>
+</member><member name="T:kbfakt5.IsolatedStorage.ConfigurationManager">
+	<summary>
+ IsolatedStorageConfigurationManager
+ ===================================
+ Read and Write application and formsettings to isolated storage
+ Setting are saved as XML in a file named "application-name".config 
+ in folder C:\Documents and Settings\user\Local Settings\Application Data\IsolatedStorage\AssemFiles\
+
+ Class is implemented as a Singleton.
+ Example for use: 
+ IsolatedStorageConfigurationManager configManager = IsolatedStorageConfigurationManager.ConfigurationManager(Application.ProductName)
+ string databaseName = configManager.Read("Database")
+ configManager.Write("Database", DatabaseName)
+ configManager.Persist()
+
+ Edwin Roetman, January 2004
+ </summary>
+</member><member name="F:kbfakt5.MWA.Progress.ProgressWindow.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Begin(System.Int32,System.Int32)">
+	<summary>
+ Call this method from the worker thread to initialize
+ the progress meter.
+ </summary>
+	<param name="minimum">The minimum value in the progress range (e.g. 0)</param>
+	<param name="maximum">The maximum value in the progress range (e.g. 100)</param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Begin">
+	<summary>
+ Call this method from the worker thread to initialize
+ the progress callback, without setting the range
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.SetRange(System.Int32,System.Int32)">
+	<summary>
+ Call this method from the worker thread to reset the range in the progress callback
+ </summary>
+	<param name="minimum">The minimum value in the progress range (e.g. 0)</param>
+	<param name="maximum">The maximum value in the progress range (e.g. 100)</param>
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.SetText(System.String)">
+	<summary>
+ Call this method from the worker thread to update the progress text.
+ </summary>
+	<param name="text">The progress text to display</param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Increment(System.Int32)">
+	<summary>
+ Call this method from the worker thread to increase the progress counter by a specified value.
+ </summary>
+	<param name="val">The amount by which to increment the progress indicator</param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.StepTo(System.Int32)">
+	<summary>
+ Call this method from the worker thread to step the progress meter to a particular value.
+ </summary>
+	<param name="val"></param>
+</member><member name="P:kbfakt5.MWA.Progress.ProgressWindow.IsAborting">
+	<summary>
+ If this property is true, then you should abort work
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.End">
+	<summary>
+ Call this method from the worker thread to finalize the progress meter
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.OnLoad(System.EventArgs)">
+	<summary>
+ Handles the form load, and sets an event to ensure that
+ intialization is synchronized with the appearance of the form.
+ </summary>
+	<param name="e"></param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.OnClosing(System.ComponentModel.CancelEventArgs)">
+	<summary>
+ Handler for 'Close' clicking
+ </summary>
+	<param name="e"></param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.UpdateStatusText">
+	<summary>
+ Utility function that formats and updates the title bar text
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.AbortWork">
+	<summary>
+ Utility function to terminate the thread
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="T:kbfakt5.ListenAnsicht">
+	<summary>
+ Show a Kunden or Rechnungen list for KundenNr or RechnungsNr
+ Show a list of all KundFahr
+ </summary>
+	<remarks>
+ set KundenNr=0 to use RechnungsNr
+ set RechnungsNr=0 to use KundenNr
+ set KundenNr=0 and RechnungsNr=0 to use FahrgestellNr
+ </remarks>
+</member><member name="M:kbfakt5.ArtikelDetails.addChangedHandler">
+	<summary>
+ will add the changed event handler to every text control
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.ArtikelDetails.TextBoxChanged(System.Object,System.EventArgs)">
+	<summary>
+ TextBoxChanged event handler
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.KundenDetails.addChangedHandler">
+	<summary>
+ will add the changed event handler to every text control
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.KundenDetails.TextBoxChanged(System.Object,System.EventArgs)">
+	<summary>
+ TextBoxChanged event handler
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.mainmodul.getAppDir">
+	<summary>
+ returns to execution dir, ended with a backslash
+ </summary>
+	<returns>current exe dir</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.mainmodul.CheckTextInt(System.Windows.Forms.TextBox@)">
+	<summary>
+ checks contents of txtbox for valid integer
+ </summary>
+	<param name="txtbox"></param>
+	<returns>true, if valid</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.mainmodul.CheckMonatJahr(System.Windows.Forms.Control@)">
+	<summary>
+ Prüft, ob ein Text eine gültige Monats und Jahr Angabe enthält
+ zB 01/99 oder 12/01
+ </summary>
+	<param name="ctrl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.mainmodul.AuftragBuchen(System.Int64@,System.String@,System.Boolean)">
+	<summary>
+ AuftragBuchen mit AuftragNummer: Nur der ausgewählte Auftrag wird gebucht
+ der ArtikelStamm wird aktualisiert
+ </summary>
+	<param name="auftrag"></param>
+	<returns>LONG=Anzahl gebuchter Aufträge
+ return=-2 bedeutet Gedruckt war True und Buchung wurde nicht nochmal durchgeführt
+ -1 bedeutet exception</returns>
+	<remarks>buchen bedeutet gedruckt=true und Änderung der Artikel-Bestände</remarks>
+</member><member name="M:kbfakt5.mainmodul.FahrzeugBuchen(System.String,System.Int64,System.String,System.String,System.String,System.String)">
+	<summary>
+ will update the Fahrzeug database with data from Rechnung
+ </summary>
+	<param name="fgstllnr"></param>
+	<param name="km"></param>
+	<param name="nASU"></param>
+	<param name="nTuev"></param>
+	<param name="nSicher"></param>
+	<param name="nSchreib"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.mainmodul.ExistsData(System.String)">
+	<summary>
+ Test if a value already exists in a field of Database db
+ </summary>
+	<param name="sql">the sql select string</param>
+	<returns>true if value exists, false if not</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.mainmodul.Patch1ArtStamm">
+	<summary>
+ Patch1 für ArtStamm
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.mainmodul.Patch5AltTeilMwSt2">
+	<summary>
+ Change AltTeilMwSt to use only MwSt of 10th of Altteile
+ changed applied with version 2.1.2.0
+ </summary>
+	<remarks>
+ AltteilMwSt maybe 20.9% in total
+ this was calulated outside the normal MwSt calculation
+ Now, this will be split in normal MwSt of 19%
+ and additionaly 19% of Altteil-value divided by 10 (10% of value)
+ so we calc 1.9% additionally to 19%</remarks>
+</member><member name="M:kbfakt5.mainmodul.Patch2FirmStam">
+	<summary>
+ Patch FirmStamm Daten to incl. field for AltTeilMwSt
+ Patch Rech1 add one field for AltTeilMwSt and set defaults for existing data
+ </summary>
+	<remarks>Can you read this</remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.printKopf(System.IO.StreamWriter)">
+	<summary>
+ prints the header lines into filestream
+ </summary>
+	<returns>number of header lines</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.printFuss(System.IO.StreamWriter)">
+	<summary>
+ prints the footer to fstream
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.FillFussZeilen">
+	<summary>
+ adds the footer text to a collection
+ </summary>
+	<returns>number of lines added</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.SkipLines(System.Int32)">
+	<summary>
+ adds n lines in the header collection
+ </summary>
+	<param name="nOfLines"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.FillKopfzeilen(System.String)">
+	<summary>
+ adds the header lines to a collection
+ </summary>
+	<param name="AuftragsNummer">a collection with order numbers</param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.PrintForm(Microsoft.VisualBasic.Collection)">
+	<summary>
+ fills fstream with data from order
+ </summary>
+	<param name="AuftragsNummern">a collection of order numbers</param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.GetDetailsLineCount(System.String)">
+	<summary>
+ return the number of lines needed to print all details for AuftragNr
+ will care about entries with LEN less than 30 and more than 30
+ </summary>
+	<param name="auftragsnummer"></param>
+	<returns>number of lines needed to print with a width of 30</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

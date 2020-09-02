@@ -1,0 +1,20 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\KBFakt]
+"MarginBottom"=dword:000000c5
+"MarginLeft"=dword:00000027
+"MarginRight"=dword:00000014
+"MarginTop"=dword:000000c5
+"TopOffsetLines"=dword:00000007
+"RawPageLength"=dword:00000044
+"PaperWidth"="827"
+"PaperHeight"="1200"
+"PrinterName"="Microsoft Office Document Image Writer"
+"iPaperKind"=dword:00000009
+"UserPassword"="eluvfkho"
+"LeftMarginChars"=dword:00000006
+"InitString"="1B401B4D"
+"LastBackupPath"="C:\\Programme\\KBfakt"
+"useRawPrinter"=dword:00000000
+"UsePrinterSettingsFromReg"=dword:00000000
+

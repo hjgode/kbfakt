@@ -1,0 +1,94 @@
+VERSION=1
+01
+10
+25.06.2007
+15:53
+WDB66800310946656
+00
+00
+00
+  
+11 667-670 (bis 08/96)
+31 609 D/O 609 D
+609 D
+364906
+
+
+03
+42
+2705
+02
+011
+0
+A
+Bremsklötze der Vorderachse                                                                                                                           
+aus- und einbauen, n. B. erneuern                                                                                                                     
+                                                                                                                                                      
+                                                                                                                                                      
+03
+42
+2706
+02
+006
+0
+A
+Bremsklötze der Vorderachse                                                                                                                           
+aus- und einbauen, n. B. erneuern                                                                                                                     
+                                                                                                                                                      
+(Laufräder abmontiert)                                                                                                                                
+03
+42
+2731
+02
+033
+0
+A
+Bremsscheiben der Vorderachse                                                                                                                         
+aus- und einbauen, n. B. erneuern                                                                                                                     
+                                                                                                                                                      
+(Bremsklötze ausgebaut)                                                                                                                               
+03
+42
+2732
+01
+019
+0
+A
+Bremsscheiben der Vorderachse                                                                                                                         
+aus- und einbauen, n. B. erneuern                                                                                                                     
+                                                                                                                                                      
+(Bremssattel ausgebaut)                                                                                                                               
+03
+42
+2740
+01
+ ZM
+0
+A
+Bremsscheiben der Vorderachse                                                                                                                         
+abdrehen und schleifen                                                                                                                                
+                                                                                                                                                      
+(Bremsscheiben ausgebaut)                                                                                                                             
+03
+42
+2742
+02
+021
+0
+A
+Bremsscheiben der Vorderachse mit Reinigungsklötzen                                                                                                   
+reinigen                                                                                                                                              
+                                                                                                                                                      
+                                                                                                                                                      
+03
+42
+2743
+02
+012
+0
+A
+Bremsscheiben der Vorderachse mit Reinigungsklötzen                                                                                                   
+reinigen                                                                                                                                              
+                                                                                                                                                      
+(Bremsklötze ausgebaut)                                                                                                                               
+#joborder complete#
