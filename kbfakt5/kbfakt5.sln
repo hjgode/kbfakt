@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "kbfakt5", "kbfakt5.vbproj", "{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "KBFakt-Setup", "Setup1\Setup1.vdproj", "{DA56DA5B-300F-4917-A259-46E256A9077A}"
@@ -8,20 +8,34 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 		Setup|Any CPU = Setup|Any CPU
+		Setup|x86 = Setup|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Debug|x86.ActiveCfg = Debug|x86
+		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Debug|x86.Build.0 = Debug|x86
 		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Release|x86.ActiveCfg = Release|x86
+		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Release|x86.Build.0 = Release|x86
 		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Setup|Any CPU.ActiveCfg = Release|Any CPU
 		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Setup|Any CPU.Build.0 = Release|Any CPU
+		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Setup|x86.ActiveCfg = Release|x86
+		{FC7AB022-7600-41C7-8852-D3BEFBDBE23D}.Setup|x86.Build.0 = Release|x86
 		{DA56DA5B-300F-4917-A259-46E256A9077A}.Debug|Any CPU.ActiveCfg = Setup
+		{DA56DA5B-300F-4917-A259-46E256A9077A}.Debug|x86.ActiveCfg = Debug
 		{DA56DA5B-300F-4917-A259-46E256A9077A}.Release|Any CPU.ActiveCfg = Setup
+		{DA56DA5B-300F-4917-A259-46E256A9077A}.Release|x86.ActiveCfg = Release
+		{DA56DA5B-300F-4917-A259-46E256A9077A}.Release|x86.Build.0 = Release
 		{DA56DA5B-300F-4917-A259-46E256A9077A}.Setup|Any CPU.ActiveCfg = Setup
 		{DA56DA5B-300F-4917-A259-46E256A9077A}.Setup|Any CPU.Build.0 = Setup
+		{DA56DA5B-300F-4917-A259-46E256A9077A}.Setup|x86.ActiveCfg = Setup
+		{DA56DA5B-300F-4917-A259-46E256A9077A}.Setup|x86.Build.0 = Setup
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

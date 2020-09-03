@@ -27,7 +27,7 @@ Module mainmodul
     End Function
     Public Const provider As String = "provider=Microsoft.Jet.OLEDB.4.0;datasource="
     Public connectionString As String
-    Public DBfileName As String = "c:\Programme\kbfakt\kbfakt5.mdb" '"D:\KFZEURO\kbfakt\kbfakt5\kbfakt5.mdb"
+    Public DBfileName As String = Application.StartupPath + "\kbfakt5.mdb" ' "c:\Programme\kbfakt\kbfakt5.mdb" '"D:\KFZEURO\kbfakt\kbfakt5\kbfakt5.mdb"
     Public dsRech1Rech2 As New DataSet
     Public daRech1 As New OleDbDataAdapter
     Public daRech2 As New OleDbDataAdapter
@@ -263,7 +263,7 @@ Module mainmodul
     Public Function InitDBfilename() As Boolean
         Dim s As String = readRegDBFileName()
         If (s = "") Then
-            DBfileName = "c:\Programme\kbfakt\kbfakt5.mdb"
+            DBfileName = Application.StartupPath + "\kbfakt5.mdb" ' "c:\Programme\kbfakt\kbfakt5.mdb"
         Else
             DBfileName = s
         End If

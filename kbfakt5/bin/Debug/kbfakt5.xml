@@ -6,20 +6,7 @@ kbfakt5
 </name>
 </assembly>
 <members>
-<member name="P:kbfakt5.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:kbfakt5.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:kbfakt5.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="F:kbfakt5.PrintAuftrag.totalPages">
+<member name="F:kbfakt5.PrintAuftrag.totalPages">
 	<summary>
  Printed as page x of y on rechnung
  </summary>
@@ -32,6 +19,80 @@ kbfakt5
 	<param name="auftragsnummer"></param>
 	<returns>number of lines needed to print with a width of 30</returns>
 	<remarks></remarks>
+</member><member name="F:kbfakt5.MWA.Progress.ProgressWindow.components">
+	<summary>
+ Required designer variable.
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Begin(System.Int32,System.Int32)">
+	<summary>
+ Call this method from the worker thread to initialize
+ the progress meter.
+ </summary>
+	<param name="minimum">The minimum value in the progress range (e.g. 0)</param>
+	<param name="maximum">The maximum value in the progress range (e.g. 100)</param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Begin">
+	<summary>
+ Call this method from the worker thread to initialize
+ the progress callback, without setting the range
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.SetRange(System.Int32,System.Int32)">
+	<summary>
+ Call this method from the worker thread to reset the range in the progress callback
+ </summary>
+	<param name="minimum">The minimum value in the progress range (e.g. 0)</param>
+	<param name="maximum">The maximum value in the progress range (e.g. 100)</param>
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.SetText(System.String)">
+	<summary>
+ Call this method from the worker thread to update the progress text.
+ </summary>
+	<param name="text">The progress text to display</param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Increment(System.Int32)">
+	<summary>
+ Call this method from the worker thread to increase the progress counter by a specified value.
+ </summary>
+	<param name="val">The amount by which to increment the progress indicator</param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.StepTo(System.Int32)">
+	<summary>
+ Call this method from the worker thread to step the progress meter to a particular value.
+ </summary>
+	<param name="val"></param>
+</member><member name="P:kbfakt5.MWA.Progress.ProgressWindow.IsAborting">
+	<summary>
+ If this property is true, then you should abort work
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.End">
+	<summary>
+ Call this method from the worker thread to finalize the progress meter
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.OnLoad(System.EventArgs)">
+	<summary>
+ Handles the form load, and sets an event to ensure that
+ intialization is synchronized with the appearance of the form.
+ </summary>
+	<param name="e"></param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.OnClosing(System.ComponentModel.CancelEventArgs)">
+	<summary>
+ Handler for 'Close' clicking
+ </summary>
+	<param name="e"></param>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.UpdateStatusText">
+	<summary>
+ Utility function that formats and updates the title bar text
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.AbortWork">
+	<summary>
+ Utility function to terminate the thread
+ </summary>
+</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
 </member><member name="F:kbfakt5.Auftrag.g_ArtikelFound">
 	<summary>
  Global var to remember, if Artikle was searched and found with dialog
@@ -180,32 +241,31 @@ kbfakt5
    Arbeitsart eingeben
    E-Preis eingeben
  </remarks>
-</member><member name="M:kbfakt5.FahrzeugDetails.addChangedHandler">
+</member><member name="M:kbfakt5.ArtikelDetails.addChangedHandler">
 	<summary>
  will add the changed event handler to every text control
  </summary>
 	<remarks></remarks>
-</member><member name="M:kbfakt5.FahrzeugDetails.TextBoxChanged(System.Object,System.EventArgs)">
+</member><member name="M:kbfakt5.ArtikelDetails.TextBoxChanged(System.Object,System.EventArgs)">
 	<summary>
  TextBoxChanged event handler
  </summary>
 	<param name="sender"></param>
 	<param name="e"></param>
 	<remarks></remarks>
-</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.Begin(System.Int32,System.Int32)">
-	<param name="maximum">The maximum value in the progress range (e.g. 100)</param>
-</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.SetRange(System.Int32,System.Int32)">
-	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
-</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.SetText(System.String)">
-	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
-</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.StepTo(System.Int32)">
-	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
-</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.Increment(System.Int32)">
-	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
-</member><member name="P:kbfakt5.MWA.Progress.IProgressCallback.IsAborting">
-	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
-</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.End">
-	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="P:kbfakt5.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:kbfakt5.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:kbfakt5.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
 </member><member name="M:kbfakt5.datei_import.UpdateArtStammFzgTyp">
 	<summary>
  ArtStamm Daten, Feld FzgTyp mit Wert aus Rech1:XTyp ergänzen
@@ -232,6 +292,71 @@ kbfakt5
  </summary>
 	<param name="sTable">eine geöffnete Tabelle</param>
 	<remarks></remarks>
+</member><member name="T:kbfakt5.ListenAnsicht">
+	<summary>
+ Show a Kunden or Rechnungen list for KundenNr or RechnungsNr
+ Show a list of all KundFahr
+ </summary>
+	<remarks>
+ set KundenNr=0 to use RechnungsNr
+ set RechnungsNr=0 to use KundenNr
+ set KundenNr=0 and RechnungsNr=0 to use FahrgestellNr
+ </remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.printKopf(System.IO.StreamWriter)">
+	<summary>
+ prints the header lines into filestream
+ </summary>
+	<returns>number of header lines</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.printFuss(System.IO.StreamWriter)">
+	<summary>
+ prints the footer to fstream
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.FillFussZeilen">
+	<summary>
+ adds the footer text to a collection
+ </summary>
+	<returns>number of lines added</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.SkipLines(System.Int32)">
+	<summary>
+ adds n lines in the header collection
+ </summary>
+	<param name="nOfLines"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.FillKopfzeilen(System.String)">
+	<summary>
+ adds the header lines to a collection
+ </summary>
+	<param name="AuftragsNummer">a collection with order numbers</param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.PrintForm(Microsoft.VisualBasic.Collection)">
+	<summary>
+ fills fstream with data from order
+ </summary>
+	<param name="AuftragsNummern">a collection of order numbers</param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.PrintAuftragRAW.GetDetailsLineCount(System.String)">
+	<summary>
+ return the number of lines needed to print all details for AuftragNr
+ will care about entries with LEN less than 30 and more than 30
+ </summary>
+	<param name="auftragsnummer"></param>
+	<returns>number of lines needed to print with a width of 30</returns>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.KundenDetails.addChangedHandler">
+	<summary>
+ will add the changed event handler to every text control
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.KundenDetails.TextBoxChanged(System.Object,System.EventArgs)">
+	<summary>
+ TextBoxChanged event handler
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
 </member><member name="M:kbfakt5.IsolatedStorage.ConfigurationManager.#ctor(System.String)">
 	<summary>
  Singleton, do not allow this class to be instantiated by making the contructor private
@@ -254,114 +379,32 @@ kbfakt5
 
  Edwin Roetman, January 2004
  </summary>
-</member><member name="F:kbfakt5.MWA.Progress.ProgressWindow.components">
+</member><member name="M:kbfakt5.FahrzeugDetails.addChangedHandler">
 	<summary>
- Required designer variable.
+ will add the changed event handler to every text control
  </summary>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Begin(System.Int32,System.Int32)">
+	<remarks></remarks>
+</member><member name="M:kbfakt5.FahrzeugDetails.TextBoxChanged(System.Object,System.EventArgs)">
 	<summary>
- Call this method from the worker thread to initialize
- the progress meter.
+ TextBoxChanged event handler
  </summary>
-	<param name="minimum">The minimum value in the progress range (e.g. 0)</param>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.Begin(System.Int32,System.Int32)">
 	<param name="maximum">The maximum value in the progress range (e.g. 100)</param>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Begin">
-	<summary>
- Call this method from the worker thread to initialize
- the progress callback, without setting the range
- </summary>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.SetRange(System.Int32,System.Int32)">
-	<summary>
- Call this method from the worker thread to reset the range in the progress callback
- </summary>
-	<param name="minimum">The minimum value in the progress range (e.g. 0)</param>
-	<param name="maximum">The maximum value in the progress range (e.g. 100)</param>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.SetRange(System.Int32,System.Int32)">
 	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.SetText(System.String)">
-	<summary>
- Call this method from the worker thread to update the progress text.
- </summary>
-	<param name="text">The progress text to display</param>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Increment(System.Int32)">
-	<summary>
- Call this method from the worker thread to increase the progress counter by a specified value.
- </summary>
-	<param name="val">The amount by which to increment the progress indicator</param>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.StepTo(System.Int32)">
-	<summary>
- Call this method from the worker thread to step the progress meter to a particular value.
- </summary>
-	<param name="val"></param>
-</member><member name="P:kbfakt5.MWA.Progress.ProgressWindow.IsAborting">
-	<summary>
- If this property is true, then you should abort work
- </summary>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.End">
-	<summary>
- Call this method from the worker thread to finalize the progress meter
- </summary>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.OnLoad(System.EventArgs)">
-	<summary>
- Handles the form load, and sets an event to ensure that
- intialization is synchronized with the appearance of the form.
- </summary>
-	<param name="e"></param>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.Dispose(System.Boolean)">
-	<summary>
- Clean up any resources being used.
- </summary>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.OnClosing(System.ComponentModel.CancelEventArgs)">
-	<summary>
- Handler for 'Close' clicking
- </summary>
-	<param name="e"></param>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.UpdateStatusText">
-	<summary>
- Utility function that formats and updates the title bar text
- </summary>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.AbortWork">
-	<summary>
- Utility function to terminate the thread
- </summary>
-</member><member name="M:kbfakt5.MWA.Progress.ProgressWindow.InitializeComponent">
-	<summary>
- Required method for Designer support - do not modify
- the contents of this method with the code editor.
- </summary>
-</member><member name="T:kbfakt5.ListenAnsicht">
-	<summary>
- Show a Kunden or Rechnungen list for KundenNr or RechnungsNr
- Show a list of all KundFahr
- </summary>
-	<remarks>
- set KundenNr=0 to use RechnungsNr
- set RechnungsNr=0 to use KundenNr
- set KundenNr=0 and RechnungsNr=0 to use FahrgestellNr
- </remarks>
-</member><member name="M:kbfakt5.ArtikelDetails.addChangedHandler">
-	<summary>
- will add the changed event handler to every text control
- </summary>
-	<remarks></remarks>
-</member><member name="M:kbfakt5.ArtikelDetails.TextBoxChanged(System.Object,System.EventArgs)">
-	<summary>
- TextBoxChanged event handler
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:kbfakt5.KundenDetails.addChangedHandler">
-	<summary>
- will add the changed event handler to every text control
- </summary>
-	<remarks></remarks>
-</member><member name="M:kbfakt5.KundenDetails.TextBoxChanged(System.Object,System.EventArgs)">
-	<summary>
- TextBoxChanged event handler
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.SetText(System.String)">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.StepTo(System.Int32)">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.Increment(System.Int32)">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="P:kbfakt5.MWA.Progress.IProgressCallback.IsAborting">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
+</member><member name="M:kbfakt5.MWA.Progress.IProgressCallback.End">
+	<remarks>You must have called one of the Begin() methods prior to this call.</remarks>
 </member><member name="M:kbfakt5.mainmodul.getAppDir">
 	<summary>
  returns to execution dir, ended with a backslash
@@ -435,49 +478,6 @@ kbfakt5
  Patch Rech1 add one field for AltTeilMwSt and set defaults for existing data
  </summary>
 	<remarks>Can you read this</remarks>
-</member><member name="M:kbfakt5.PrintAuftragRAW.printKopf(System.IO.StreamWriter)">
-	<summary>
- prints the header lines into filestream
- </summary>
-	<returns>number of header lines</returns>
-	<remarks></remarks>
-</member><member name="M:kbfakt5.PrintAuftragRAW.printFuss(System.IO.StreamWriter)">
-	<summary>
- prints the footer to fstream
- </summary>
-	<remarks></remarks>
-</member><member name="M:kbfakt5.PrintAuftragRAW.FillFussZeilen">
-	<summary>
- adds the footer text to a collection
- </summary>
-	<returns>number of lines added</returns>
-	<remarks></remarks>
-</member><member name="M:kbfakt5.PrintAuftragRAW.SkipLines(System.Int32)">
-	<summary>
- adds n lines in the header collection
- </summary>
-	<param name="nOfLines"></param>
-	<remarks></remarks>
-</member><member name="M:kbfakt5.PrintAuftragRAW.FillKopfzeilen(System.String)">
-	<summary>
- adds the header lines to a collection
- </summary>
-	<param name="AuftragsNummer">a collection with order numbers</param>
-	<remarks></remarks>
-</member><member name="M:kbfakt5.PrintAuftragRAW.PrintForm(Microsoft.VisualBasic.Collection)">
-	<summary>
- fills fstream with data from order
- </summary>
-	<param name="AuftragsNummern">a collection of order numbers</param>
-	<remarks></remarks>
-</member><member name="M:kbfakt5.PrintAuftragRAW.GetDetailsLineCount(System.String)">
-	<summary>
- return the number of lines needed to print all details for AuftragNr
- will care about entries with LEN less than 30 and more than 30
- </summary>
-	<param name="auftragsnummer"></param>
-	<returns>number of lines needed to print with a width of 30</returns>
-	<remarks></remarks>
 </member>
 </members>
 </doc>

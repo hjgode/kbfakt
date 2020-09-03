@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="kbfakt5">
+</Property><Property Name="Solution File" Value="D:\svn\git\kbfakt\kbfakt5\kbfakt5.sln">
+</Property><Property Name="User Options File" Value="D:\svn\git\kbfakt\kbfakt5\kbfakt5.suo">
+</Property><Property Name="Date" Value="Donnerstag, 3. September 2020">
+</Property><Property Name="Time" Value="09:37">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="kbfakt5.sln" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt5.sln">
+</Event><Event ErrorLevel="0" Project="" Source="kbfakt5.suo" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt5.suo">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt5.vbproj" Description="Project file successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt5.vbproj">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt5.vbproj.user" Description="Project user file successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt5.vbproj.user">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="AboutBox1.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\AboutBox1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="AboutBox1.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\AboutBox1.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="admin.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\admin.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="admin.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\admin.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ArtikelListe.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ArtikelListe.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ArtikelListe.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ArtikelListe.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Auftragsliste.designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Auftragsliste.designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Auftragsliste.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Auftragsliste.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ArtikelDetails.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ArtikelDetails.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ArtikelDetails.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ArtikelDetails.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Auswertungen.designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Auswertungen.designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Auswertungen.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Auswertungen.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="AutoBackupClass.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\AutoBackupClass.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ConfigurationManager.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ConfigurationManager.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="DatenSicherung.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\DatenSicherung.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="DatenSicherung.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\DatenSicherung.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="DataGridViewPrinter.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\DataGridViewPrinter.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="EingabeBox.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\EingabeBox.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="EingabeBox.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\EingabeBox.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="FahrzeugDetails.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\FahrzeugDetails.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="FahrzeugDetails.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\FahrzeugDetails.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="FahrzeugListe.designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\FahrzeugListe.designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="FahrzeugListe.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\FahrzeugListe.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="frmExport.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\frmExport.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="frmExport.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\frmExport.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="frmInheritPrintDynamicForm.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\frmInheritPrintDynamicForm.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="frmPrintDynamicForm.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\frmPrintDynamicForm.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="IProgressCallback.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\IProgressCallback.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="KundenDetails.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\KundenDetails.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="KundenDetails.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\KundenDetails.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Kundenliste.designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Kundenliste.designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Kundenliste.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Kundenliste.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="datei_import.designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\datei_import.designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="datei_import.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\datei_import.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Auftrag.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Auftrag.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Auftrag.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Auftrag.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt_start.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt_start.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt_start.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt_start.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="LinePrinterClass.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\LinePrinterClass.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ListenAnsicht.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ListenAnsicht.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ListenAnsicht.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ListenAnsicht.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="LoginForm1.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\LoginForm1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="LoginForm1.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\LoginForm1.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="LoginForm2.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\LoginForm2.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="LoginForm2.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\LoginForm2.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="mainmodul.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\mainmodul.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="MonatJahrPicker.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\MonatJahrPicker.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="MonatJahrPicker.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\MonatJahrPicker.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="My Project\Application.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="myEncoding.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\myEncoding.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="MyGridview.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\MyGridview.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="NeuesPasswort.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\NeuesPasswort.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="NeuesPasswort.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\NeuesPasswort.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="OffeneRechnungen.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\OffeneRechnungen.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="OffeneRechnungen.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\OffeneRechnungen.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="PrintAuftrag.designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\PrintAuftrag.designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="PrintAuftrag.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\PrintAuftrag.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="PrintAuftragRAW.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\PrintAuftragRAW.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="PrintAuftragRAW.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\PrintAuftragRAW.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="PrintAuftragRawSetup.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\PrintAuftragRawSetup.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="PrintAuftragRawSetup.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\PrintAuftragRawSetup.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ProgressWindow.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ProgressWindow.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="RawPrinterHelper.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\RawPrinterHelper.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Richtwerte.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Richtwerte.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Richtwerte.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Richtwerte.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Settings.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Settings.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Stammdaten.Designer.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Stammdaten.Designer.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Stammdaten.vb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Stammdaten.vb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="My Project\Application.myapp" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="My Project\Settings.settings" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="app.config" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\app.config">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt5.config" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt5.config">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt5.mdb" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt5.mdb">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="lkw.gif" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\lkw.gif">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt5_TemporaryKey.pfx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt5_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="plus1.bmp" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\plus1.bmp">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="plus2.bmp" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\plus2.bmp">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="plus21.bmp" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\plus21.bmp">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="locked1.bmp" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\locked1.bmp">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Resources\men-at-work.gif" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Resources\men-at-work.gif">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="lkw1.ico" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\lkw1.ico">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="plus.ico" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\plus.ico">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="plus.bmp" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\plus.bmp">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="search2small.bmp" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\search2small.bmp">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="locked.ico" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\locked.ico">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="search2.ico" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\search2.ico">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="locked.bmp" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\locked.bmp">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="search2.bmp" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\search2.bmp">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="auswertungen.xml" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\auswertungen.xml">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="History.txt" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\History.txt">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="lkw.ico" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\lkw.ico">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="sql.txt" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\sql.txt">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="AboutBox1.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\AboutBox1.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="admin.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\admin.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ArtikelListe.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ArtikelListe.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Auftragsliste.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Auftragsliste.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ArtikelDetails.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ArtikelDetails.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Auswertungen.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Auswertungen.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="DatenSicherung.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\DatenSicherung.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="EingabeBox.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\EingabeBox.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="FahrzeugDetails.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\FahrzeugDetails.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="FahrzeugListe.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\FahrzeugListe.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="frmExport.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\frmExport.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="frmInheritPrintDynamicForm.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\frmInheritPrintDynamicForm.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="frmPrintDynamicForm.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\frmPrintDynamicForm.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="KundenDetails.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\KundenDetails.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Kundenliste.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Kundenliste.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="datei_import.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\datei_import.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Auftrag.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Auftrag.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt_start.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\kbfakt_start.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="ListenAnsicht.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\ListenAnsicht.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="LoginForm1.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\LoginForm1.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="LoginForm2.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\LoginForm2.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="MonatJahrPicker.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\MonatJahrPicker.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="My Project\Resources.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="NeuesPasswort.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\NeuesPasswort.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="OffeneRechnungen.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\OffeneRechnungen.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="PrintAuftrag.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\PrintAuftrag.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="PrintAuftragRAW.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\PrintAuftragRAW.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="PrintAuftragRawSetup.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\PrintAuftragRawSetup.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Richtwerte.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Richtwerte.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="Stammdaten.resx" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Stammdaten.resx">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="My Project\app.manifest" Description="File successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\My Project\app.manifest">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt5.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="kbfakt5" Source="kbfakt5.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Setup1.vdproj" Source="Setup1\Setup1.vdproj" Description="Project file successfully backed up as D:\svn\git\kbfakt\kbfakt5\Backup1\Setup1\Setup1.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="kbfakt5.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="kbfakt5.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="kbfakt5" Source="kbfakt5.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

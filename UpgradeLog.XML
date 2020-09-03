@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="kbfakt">
+</Property><Property Name="Solution File" Value="D:\svn\git\kbfakt\kbfakt.sln">
+</Property><Property Name="User Options File" Value="D:\svn\git\kbfakt\kbfakt.suo">
+</Property><Property Name="Date" Value="Donnerstag, 3. September 2020">
+</Property><Property Name="Time" Value="09:36">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="kbfakt.sln" Description="File successfully backed up as D:\svn\git\kbfakt\Backup\kbfakt.sln">
+</Event><Event ErrorLevel="0" Project="" Source="kbfakt.suo" Description="File successfully backed up as D:\svn\git\kbfakt\Backup\kbfakt.suo">
+</Event><Event ErrorLevel="2" Project="kbfakt" Source="kbfakt\kbfakt.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="kbfakt.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="kbfakt.sln" Description="Converted">
+</Event></UpgradeLog>

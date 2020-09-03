@@ -10,7 +10,6 @@
     </UpdateUrlHistory>
     <BootstrapperUrlHistory>
     </BootstrapperUrlHistory>
-    <ApplicationRevision>1</ApplicationRevision>
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>true</VerifyUploadedFiles>
     <ReferencePath>C:\Program Files\Common Files\Business Objects\2.7\Managed\F:\Programme\Gemeinsame Dateien\Business Objects\2.7\Managed\C:\Programme\Gemeinsame Dateien\Business Objects\2.7\Managed\</ReferencePath>
@@ -18,6 +17,9 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine>hushpc1</RemoteDebugMachine>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <RemoteDebugMachine>hushpc1</RemoteDebugMachine>
   </PropertyGroup>
 </Project>

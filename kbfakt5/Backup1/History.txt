@@ -1,0 +1,222 @@
+version 1.0.0.0
+	initial version
+version 1.1.0.0
+version 1.2.0.0	
+version 1.3.0.0
+version 1.4.0.0
+	Richtwerte Logik neu dazu: 
+		+ bei Artikeleingabe bringt 'ZEIT/' den Richtwert-Dialog
+		+ bei Eingabe von 'ZEIT/...' wird ein passender Richtwert gesucht
+		- falls keiner auffindbar, beginnt die Neuanlage eines Richtwertes
+		- falls vorhanden, wird der Richtwert übernommen
+version 1.5.0.0
+	Neues FirmStam Feld FussText eingeführt
+		erscheint auf der Rechnung unten
+		Änderung über Stammdaten-Dialog
+version 2.0.0.0
+	Statt CrystalReports wird nun überall PrintDocument verwendet
+version 2.0.0.3
+	Änderung GetMaxAuftragNr() für Startnummer 1007930
+version 2.0.0.4
+	Änderung 2.0.0.3 rückgängig gemacht, ergab doppelte Rg Speicherung!
+version 2.0.0.5
+	Änderung kbfakt_start:FillGrid(ByRef grid As DataGridView, ByVal query As String) As Integer	
+		ARTIKELBEZ Spalte jetzt in Courier
+	Änderung des DataGridView1 in Auftrag.vb: Zweizeilig, mit Umbruch, Ausrichtung oben/links
+	Änderung Auftrag.vb:DataGridView1_DataError
+		e.Cancel=true auskommentiert
+version 2.0.0.6
+	Für Einmalkunden:
+		Änderung Auftrag.vb: ExistsFahrzeug returns true for txtXKundenNr="999999"
+		neu in btn_Speichern_Click: If (txtXKundenNr.Text <> "999999") Then ...
+		Auftrag.vb: btnFahrzeugFREI disabled
+		readFahrzeug changed
+		DataGridView1_CellEndEdit added code to UPPER case ArtikelNr
+		neuer if block in btnFahrzeugSuchen_Click
+	SearchRichtwert changed
+	ArtikelListe
+		AcceptButton der Form ist nun [Filtern...]
+
+version 2.0.0.7
+	Added Control_Keypress in Auftrag to avoid Shift-Enter press gives new line in Text
+
+version 2.0.0.8
+	Added WordWrap Routine in mainmodul and use it in PrintAuftrag
+	did some try with DataGridView1_EditingControlShowing to size editbox, but w/o success
+	changed ReadFahrzeug to not enable Fahrgstl NR
+	changed btnSpeichern_Click to avoid double save of existing Rechnungsnummern
+	
+version 2.0.0.9
+	added Gutschrift drucken, MUST change Buchen for Gutschrift
+	
+version 2.0.1.0
+	changed some Gutschrift logic
+
+version 2.0.1.1
+	added PrintAuftragRaw to print directly to epson printers
+	
+version 2.0.1.2
+	changed Sammeldruck to use PrintAuftragRaw()
+	removed PrintAuftrag()
+	added Backup/Restore
+	exchanged txtDatum with txtWerkdatum, 
+	Rechnungsdatum is werkdatum, the other is Auftrags or Annahmedatum
+version 2.0.1.3
+	added Terminfälligkeiten
+	added Lohngesamt und ETeilegesamt to Rechnungsdruck
+version 2.0.1.4
+	changed mainmodul.WordWrap: while condition changed from '>=' to '>'
+
+version 2.0.1.6
+	mainmodul: If Not artikel.StartsWith("ZEIT", StringComparison.OrdinalIgnoreCase) Then
+    PrintAuftraRAW.vb: PrintForm():
+		dbset.Clear() 'new in 2.0.1.6, without the details data is mixed up from different bills
+		dbset.Dispose() ' added in 2.0.1.6
+
+	Rechnungsdruck enthält jetzt immer Schmiermittel etc., so sehen alle Rechnungen gleich aus
+		
+	Auftrag.vb: btnSpeichern_Click
+		new messagebox
+	
+	PositionenSpeichern:
+		'Remove empty rows, new with 2.0.1.6	
+	
+	Fahrzeugdetails.vb
+		limit some fields to 5 or 10 chars!
+
+version 2.0.1.7
+	MyDatagrid geändert: bei Eingabe von Enter für neue Zeile wurde falsche Pos-Nr erzeugt
+	
+version 2.0.2.0
+	Neue Klasse DataGridViewPrinter eingefügt. Wird zum Drucken von DataGridView bei Terminfälligkeiten 
+	und (neu) Fahrzeugliste (Kunden-Details) verwendet.
+
+	g_ArtikelFound Logik erweitern, zur Zeit kommt Such-Dialog obwohl schon vorher gefunden!
+	
+version 2.0.2.1
+	DB nun mit Passwort gesichert, Sicherungsdateien werden ohne Pw gespeichert
+
+version 2.0.2.2
+	In Auftrag Form kann man nun nach Doppelklick auf das LKW-Bild links oberhalb der Artikelliste einen
+	gedruckten Auftrag wieder freischalten.
+	Der Schalter Drucken in Auswertungen druckt nun, nach Eingabe des bekannten Passworts, über die 
+	neue DataGridViewPrinter Funktion
+
+version 2.0.2.3
+	Funktion Export2CSV und Export2XLS hinzugefügt und in verschiedenen Dialogen als Button
+	Export eingesetzt
+	
+version 2.0.2.4
+	F3 in Artikeleingabe (ArtikelListe) geändert
+
+version 2.0.2.5
+	Textlängenbegrenzung in Artikeltext geändert: Control_Keypress
+	
+version 2.0.2.5
+	DataGridView1_DataError deaktiviert
+	
+version 2.0.2.6
+	disabled code from DataGridView1_DataError
+
+version 2.0.2.7
+	disabled autolaunch of ArtikelListe for unknown ArtikelNr in Auftrag
+	
+version 2.0.2.8
+        'new in version, limit text entry
+        txtXKundenNr.MaxLength = 15
+        txtXName2.MaxLength = 30
+        txtXST.MaxLength = 30
+        txtXPL.MaxLength = 6
+        txtXOT.MaxLength = 24
+        txtXTel.MaxLength = 20
+
+version 2.0.3.0
+	added LDATUM field to Rech1 to store Liefer-/Leistungsdatum
+	see Patch4Rech1() for details
+	ArtikelAnlegen() changed to save VK too
+
+version 2.1.0.0
+	Altteilmehrwertsteuer (20.9%) eingeführt:
+	"Der Gesetzgeber erhebt für Austauschteile zusätzlich zur derzeit gültigen 
+	MwSt. von 19% eine »Altteilmehrwertssteuer« (AT-MwSt.) – 
+	diese beträgt 19% auf 10% des Nettopreises des Austauschteils. Das heißt, 
+	ein Austauschteil wird mit insgesamt 20.9% versteuert.
+	
+	Als Rechnungsinformation finden Sie folgende Posten:
+	MwSt. 19%: Dies ist die Summe der Mehrwertsteuer aller Artikel, die 
+	ausschließlich mit 19% Mehrwertsteuer besteuert werden.
+	AT-MwSt. + MwSt. 19%: Dies ist die Summe der Mehrwertsteuer aller Artikel, 
+	die mit Mehrwertsteuer und Altteilmehrwertsteuer, also 
+	insgesamt 20.9% besteuert wird."
+	
+	Für die Berechnung wird das Feld XSONDER benutzt. Statt Sonder wird nun visuell
+	Altteile verwendet.
+	
+	bug in btnFilter_Click in ArtikelListeForm beseitigt	
+	
+version 2.1.1.0
+	PrintAuftrag re-implentiert und über Registry kann nun Raw oder Normal zum Drucken
+	gewählt werden:
+	HKLM\Software\KBFakt\DWORD:useRawPrinter = 0/1
+	
+	Dim dlg
+        If readRegUseRawPrinter() = 1 Then
+            dlg = New PrintAuftragRAW 'AuftragDrucken
+        Else
+            dlg = New PrintAuftrag 'AuftragDrucken
+        End If
+
+registry values and meanings:
+	[HKEY_CURRENT_USER\SOFTWARE\KBFakt]
+	;some margins to remember for printing
+	"MarginBottom"=dword:000000c5
+	"MarginLeft"=dword:00000027
+	"MarginRight"=dword:00000014
+	"MarginTop"=dword:000000c5
+	;how many lines to skip at top of page
+	"TopOffsetLines"=dword:00000007
+	;how many lines fit on the page
+	"RawPageLength"=dword:00000044
+	;the paper size width and height
+	"PaperWidth"="827"
+	"PaperHeight"="1200"
+	;the printer to use for PrintAuftrag and PrintAuftragRAW
+	"PrinterName"="Microsoft Office Document Image Writer"
+	;the paper kind index, was 'German Fanfold' but now is 'A4'
+	"iPaperKind"=dword:00000009
+	;the users password needed for some dialogs
+	"UserPassword"="eluvfkho"
+	;additional left margin in chars to skip
+	"LeftMarginChars"=dword:00000006
+	;the init sequence to send to the RAW printer (passthru)
+	"InitString"="1B401B4D"
+	;last used path to the backup files 
+	"LastBackupPath"="C:\\Programme\\KBfakt"
+	;use PrintAuftragRAW or a normal printing (no passthru) PrintAuftrag
+	"useRawPrinter"=dword:00000000
+	;use printer and page settings from registry or use systems default printer?
+	"UsePrinterSettingsFromReg"=dword:00000000
+
+version 2.1.2.0
+	added Patch5AltTeilMwSt2
+	will use now 1.9% AltTeilMwSt instead of 20.9% AND the 19% are calculated with the rest
+
+version 2.1.3.0
+	calcnetto: MwSt has to calced incl. Altteile
+	CalcNetto2: MwSt has to calced incl. Altteile
+	CellEndEdit: MwSt has to calced incl. Altteile
+
+version 2.1.3.1
+	added regWriteDBFilename and readRegDBFileName
+	[HKEY_CURRENT_USER\SOFTWARE\KBFakt]
+	"dbFilename"="c:\Programme\kbfakt\kbfakt5.mdb"
+	changed initDbFilename
+	
+	changed registry access from HKEY_LOCAL_MACHINE to HKEY_CURRENT_USER
+	
+	changed Stammdaten to include DBfilename and fixed a bug with queryString for MWST_SATZ1 and AltTeilMwSt
+
+version 2.1.4.1
+	added IProgressWindow, ProgressWindow and AutoBackup Class
+	Autobackups are made in DBFilename-Dir with Template Name kbfaktbackup00 (general actual) 
+	and kbfaktbackup01 to kbfaktbackup07 (for each day of week) on KBFakt Exit

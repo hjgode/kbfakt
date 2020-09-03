@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<Auswertungen>
+  <Auswertungen>
+    <StringUI>Umsatz nach Kunden</StringUI>
+    <stringSQL>select * from (SELECT kundenst.nachname as Name, SUM(rech1.xnetto) AS Gesamt FROM RECH1, KundenSt where RECH1.XKUNDENNR=KUNDENST.KUNDENNR  AND rech1.gutschrift=FALSE GROUP BY kundenst.nachname ) order by Gesamt desc</stringSQL>
+    <stringSQLprint>select 'Name', 0, 30, 'L', 'N', '', 1, NAME, 'Gesamt', 31, 45, 'R', 'Y', '#,##0.00', 1, GESAMT from (SELECT kundenst.nachname as Name, SUM(rech1.xnetto) AS Gesamt, rech1.gutschrift FROM RECH1 INNER JOIN KUNDENST ON RECH1.XKUNDENNR=KUNDENST.KUNDENNR GROUP BY kundenst.nachname ) order by Gesamt desc</stringSQLprint>
+  </Auswertungen>
+  <Auswertungen>
+    <StringUI>Umsatz nach Monat</StringUI>
+    <stringSQL>SELECT YEAR(XDATUM) as Jahr, MONTH(XDATUM) as Monat, SUM(XNETTO) as Gesamt FROM RECH1 group by YEAR(XDATUM), MONTH(XDATUM)</stringSQL>
+    <stringSQLprint>select 'Jahr', 0, 15, 'L', 'N', '', 1, Jahr, 'Monat', 16, 30, 'L', 'N', '', 1, Monat, 'Gesamt', 31, 45, 'R', 'Y', '#,##0.00', 1, GESAMT from (SELECT YEAR(XDATUM) as Jahr, MONTH(XDATUM) as Monat, SUM(XNETTO) as Gesamt FROM RECH1 group by YEAR(XDATUM), MONTH(XDATUM) WHERE Gutschrift=FALSE)</stringSQLprint>
+  </Auswertungen>
+  <Auswertungen>
+    <StringUI>Umsatz nach Artikel</StringUI>
+    <stringSQL>select ARTIKELNR, ARTIKELBEZ, Gesamt from (SELECT ARTIKELNR, ARTIKELBEZ, sum (menge * e_preis - (RABATT/100 * (menge * e_preis))) as Gesamt FROM RECH2 group by ARTIKELNR, ARTIKELBEZ ) WHERE GESAMT&gt;100 order by gesamt desc</stringSQL>
+    <stringSQLprint>select 'ArtikelNr', 0, 15, 'L', 'N', '', 1, ARTIKELNR, 'Artikelbez', 16, 40, 'L', 'N', '', 1, ARTIKELBEZ, 'Gesamt', 41, 55, 'R', 'Y', '#,##0.00', 1, GESAMT from (select ARTIKELNR, ARTIKELBEZ, Gesamt from (SELECT ARTIKELNR, ARTIKELBEZ, sum (menge * e_preis - (RABATT/100 * (menge * e_preis))) as Gesamt FROM RECH2 group by ARTIKELNR, ARTIKELBEZ ) WHERE GESAMT&gt;100 order by gesamt desc)</stringSQLprint>
+  </Auswertungen>
+  <Auswertungen>
+    <StringUI>Diesen Monat fällige Termine</StringUI>
+    <stringSQL>select f.Kennzeich, f.TUEV, f.ASU, f.Schreiber, f.SICHER, k.kundennr, k.VORNAME, k.NACHNAME, k.strasse, k.PLZ, k.ort  from KUNDFAHR as f, KUNDENST as k where k.KUNDENNR=f.KUNDEN_NR AND  (f.TUEV LIKE "06_08" OR f.ASU LIKE "06_08" OR f.Schreiber LIKE "06_08" OR f.Sicher LIKE "06_08") order by k.NACHNAME;</stringSQL>
+    <stringSQLprint>select 
+    'Kennzeichen', 0, 12, 'L', 'N', '', 1, f.Kennzeich, 
+    'TÜV', 13, 6, 'L', 'N', '', 1, f.TUEV, 
+    'ASU', 20, 6, 'L', 'N', '', 1, f.ASU  
+    FROM (select f.Kennzeich, f.TUEV, f.ASU, f.Schreiber, f.SICHER, k.kundennr, k.VORNAME, k.NACHNAME, k.strasse, k.PLZ, k.ort  from KUNDFAHR as f, KUNDENST as k where k.KUNDENNR=f.KUNDEN_NR AND  (f.TUEV LIKE "06_08" OR f.ASU LIKE "06_08" OR f.Schreiber LIKE "06_08" OR f.Sicher LIKE "06_08") order by k.NACHNAME)</stringSQLprint>
+  </Auswertungen>
+  <Auswertungen>
+    <StringUI>Umsatz nach Artikel ohne ZEIT</StringUI>
+    <stringSQL>select ARTIKELNR, ARTIKELBEZ, Gesamt from (SELECT ARTIKELNR, ARTIKELBEZ, sum (menge * e_preis - (RABATT/100 * (menge * e_preis))) as Gesamt FROM RECH2 where ARTIKELNR NOT Like 'ZEIT%' group by ARTIKELNR, ARTIKELBEZ ) order by gesamt desc</stringSQL>
+    <stringSQLprint />
+  </Auswertungen>
+  <Auswertungen>
+    <StringUI>Fahrzeugumsatz nach Kennzeichen</StringUI>
+    <stringSQL>SELECT kundenst.nachname as Name, RECH1.XKZ as Kennzeichen, sum(XNETTO) as Gesamt FROM RECH1, kundenst where kundenst.kundennr=rech1.xkundennr GROUP BY kundenst.nachname, RECH1.XKZ order by xkz</stringSQL>
+    <stringSQLprint />
+  </Auswertungen>
+  <Auswertungen>
+    <StringUI>Fahrzeugumsatz nach Kunden</StringUI>
+    <stringSQL>SELECT kundenst.nachname as Name, RECH1.XKZ as Kennzeichen, sum(XNETTO) as Gesamt FROM RECH1, kundenst where kundenst.kundennr=rech1.xkundennr GROUP BY kundenst.nachname, RECH1.XKZ order by kundenst.nachname</stringSQL>
+    <stringSQLprint />
+  </Auswertungen>
+</Auswertungen>
