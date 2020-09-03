@@ -467,7 +467,7 @@
     <None Include="app.config" />
     <None Include="kbfakt5.config" />
     <None Include="kbfakt5.mdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="lkw.gif" />
     <Content Include="lkw.ico" />

@@ -1,0 +1,78 @@
+
+Firma
+Anlagenbau
+Stampfer GmbH
+Leichtmetallstr.26
+
+42781 Haan
+
+
+
+
+^ERechnung 1009174 vom 14.07.2009
+                                                       Steuernummer: 13550190614
+                                                      Auftragsdatum:  14.07.2009
+    Kunden-Nr.:        28003                         Leistungsdatum:  14.07.2009
+       Telefon:                                Fahrgestellnr.:       STAMPFER 28
+   Amtl.Kennz.:    ME-HE 673                              Typ:         Wohnwagen
+    Zul. Datum:                                      KM-Stand:                 0
+           TÜV: 07.11, ASU: 00.00, Tacho: 00.00, Sicherh.: 00.00
+--------------------------------------------------------------------------------
+                                                                   Seite(n): 1/1
+
+--------------------------------------------------------------------------------
+Pos Artikelnr.        Artikelbezeichnung             Menge  E-Preis Rab G-Preis 
+================================================================================
+  1 ZEIT*             DURCHSICHT ZUM TÜV VORNEHMEN,   32,00    5,60       179,20
+                      RADNABEN ZUR BREMSKONTROLLE
+  2 ZEIT*             AB-/ANBAUEN,LAGERFETT ERNEUERN   0,00    0,00         0,00
+                      BREMSE EINSTELLEN AM RAD UND
+  3 ZEIT*             AN DEN BREMSSEILEN               0,00    0,00         0,00
+  4 ZEIT*             EINE ACHSE AUF DEM ROLLEN -      1,00   16,00        16,00
+                      STAND PRÜFEN
+  5 ZEIT*             FAHRZEUG DEM TÜV VORFÜHREN       4,00    5,60        22,40
+  6 ZEIT*             ELEKTR.ANLAGE PRÜFEN,INSTAND-   12,00    5,60        67,20
+                      SETZEN,STECKER ERN.
+  7 ZEIT*             DIVERSE KONTAKTE IN DEN          0,00    0,00         0,00
+                      LEUCHTEN REINIGEN
+  8 XF610033*         STECKER 12V                      1,00    4,20         4,20
+  9 12V10W            GLÜHLAMPE                        2,00    1,35         2,70
+================================================================================
+    Schmiermittel:     0,00                                               291,70
+      Ersatzteile:     6,90                                   19% MwSt     55,42
+         Altteile:     0,00                               AltTeil-MwSt      0,00
+             Lohn:   284,80                                               347,12
+                                                                       =========
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+           Bei Zahlungen und Rückfragen bitte Rechnungsnummer angeben.
+               Der Auftrag wurde unter Anerkennung der Bedingungen
+                    für die Ausführung von Arbeiten erteilt.
